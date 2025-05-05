@@ -1,0 +1,682 @@
+[
+    {
+      "id": "1",
+      "name": "Google",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg",
+      "location": "Mountain View, CA, USA",
+      "website": "https://about.google/",
+      "industry": "SoftwareDevelopment",
+      "jobs": [
+        {
+          "id": "job-g001",
+          "title": "Software Engineer",
+          "bannerImage": "https://via.placeholder.com/800x200/4285F4/FFFFFF?Text=Google+Software+Engineer",
+          "location": "Various Global Locations",
+          "salary": "$120,000 - $180,000",
+          "jobType": "Full-time",
+          "description": "Design, develop, test, and deploy software solutions at scale.",
+          "requirements": ["Bachelor's degree in Computer Science or related field", "Experience in one or more programming languages (e.g., Java, Python, C++)", "Strong problem-solving and analytical skills", "Experience with data structures and algorithms"]
+        },
+        {
+          "id": "job-g002",
+          "title": "Product Manager",
+          "bannerImage": "https://via.placeholder.com/800x200/DB4437/FFFFFF?Text=Google+Product+Manager",
+          "location": "Various Global Locations",
+          "salary": "$130,000 - $200,000",
+          "jobType": "Full-time",
+          "description": "Define and guide the product strategy and roadmap for a specific product area.",
+          "requirements": ["Bachelor's degree", "Experience in product management or related field", "Strong understanding of technology and user experience", "Excellent communication and leadership skills"]
+        },
+        {
+          "id": "job-g003",
+          "title": "Frontend Developer",
+          "bannerImage": "https://via.placeholder.com/800x200/F4B400/FFFFFF?Text=Google+Frontend+Developer",
+          "location": "Various Global Locations",
+          "salary": "$110,000 - $160,000",
+          "jobType": "Full-time",
+          "description": "Build user interfaces and experiences for web applications.",
+          "requirements": ["Proficient in HTML, CSS, and JavaScript", "Experience with React, Angular, or Vue.js", "Familiarity with responsive design principles", "Strong understanding of browser rendering and performance"]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Microsoft",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
+      "location": "Redmond, WA, USA",
+      "website": "https://www.microsoft.com/",
+      "industry": "SoftwareDevelopment",
+      "jobs": [
+        {
+          "id": "job-ms001",
+          "title": "Cloud Solutions Architect",
+          "bannerImage": "https://via.placeholder.com/800x200/00A4EF/FFFFFF?Text=Microsoft+Cloud+Solutions+Architect",
+          "location": "Various Global Locations",
+          "salary": "$130,000 - $190,000",
+          "jobType": "Full-time",
+          "description": "Design and implement scalable cloud solutions on the Microsoft Azure platform.",
+          "requirements": ["Bachelor's degree in Computer Science or related field", "Experience with cloud platforms (Azure, AWS, GCP)", "Strong understanding of networking, security, and infrastructure as code", "Excellent communication and presentation skills"]
+        },
+        {
+          "id": "job-ms002",
+          "title": "Data Scientist",
+          "bannerImage": "https://via.placeholder.com/800x200/767676/FFFFFF?Text=Microsoft+Data+Scientist",
+          "location": "Various Global Locations",
+          "salary": "$125,000 - $185,000",
+          "jobType": "Full-time",
+          "description": "Analyze large datasets to extract insights and build machine learning models.",
+          "requirements": ["Master's or PhD in a quantitative field (e.g., Statistics, Mathematics, Computer Science)", "Proficiency in programming languages (e.g., Python, R)", "Experience with machine learning frameworks", "Strong statistical and analytical skills"]
+        },
+        {
+          "id": "job-ms003",
+          "title": "Security Engineer",
+          "bannerImage": "https://via.placeholder.com/800x200/FF0000/FFFFFF?Text=Microsoft+Security+Engineer",
+          "location": "Various Global Locations",
+          "salary": "$115,000 - $170,000",
+          "jobType": "Full-time",
+          "description": "Develop and implement security measures to protect Microsoft's systems and data.",
+          "requirements": ["Bachelor's degree in Computer Science or related field", "Experience in cybersecurity, threat analysis, or incident response", "Knowledge of security protocols and technologies", "Strong understanding of operating systems and networking"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Amazon",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "location": "Seattle, WA, USA",
+      "website": "https://www.amazon.com/",
+      "industry": "SoftwareDevelopment",
+      "jobs": [
+        {
+          "id": "job-amz001",
+          "title": "Backend Engineer",
+          "bannerImage": "https://via.placeholder.com/800x200/FF9900/FFFFFF?Text=Amazon+Backend+Engineer",
+          "location": "Various Global Locations",
+          "salary": "$120,000 - $175,000",
+          "jobType": "Full-time",
+          "description": "Design and build scalable and reliable backend systems for Amazon's services.",
+          "requirements": ["Bachelor's degree in Computer Science or related field", "Experience in one or more programming languages (e.g., Java, Python)", "Familiarity with distributed systems and databases", "Strong problem-solving skills"]
+        },
+        {
+          "id": "job-amz002",
+          "title": "Technical Program Manager",
+          "bannerImage": "https://via.placeholder.com/800x200/232F3E/FFFFFF?Text=Amazon+Technical+Program+Manager",
+          "location": "Various Global Locations",
+          "salary": "$135,000 - $200,000",
+          "jobType": "Full-time",
+          "description": "Lead and coordinate complex technical projects across multiple teams.",
+          "requirements": ["Bachelor's degree in Computer Science or related field", "Experience in technical program management or project management", "Strong organizational and communication skills", "Ability to drive technical discussions"]
+        },
+        {
+          "id": "job-amz003",
+          "title": "UX Designer",
+          "bannerImage": "https://via.placeholder.com/800x200/00A8E1/FFFFFF?Text=Amazon+UX+Designer",
+          "location": "Various Global Locations",
+          "salary": "$110,000 - $165,000",
+          "jobType": "Full-time",
+          "description": "Design intuitive and user-centered experiences for Amazon's products and services.",
+          "requirements": ["Bachelor's degree in Design or related field", "Experience with UX design methodologies and tools", "Strong portfolio showcasing design solutions", "Excellent communication and collaboration skills"]
+        },
+        {
+          "id": "job-amz004",
+          "title": "Machine Learning Engineer",
+          "bannerImage": "https://via.placeholder.com/800x200/F9AA33/FFFFFF?Text=Amazon+Machine+Learning+Engineer",
+          "location": "Various Global Locations",
+          "salary": "$125,000 - $185,000",
+          "jobType": "Full-time",
+          "description": "Develop and deploy machine learning models for various Amazon applications.",
+          "requirements": ["Master's or PhD in Computer Science, Machine Learning, or related field", "Strong programming skills (e.g., Python)", "Experience with machine learning frameworks (e.g., TensorFlow, PyTorch)", "Solid understanding of statistical modeling and algorithms"]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Tesla",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
+      "location": "Austin, TX, USA",
+      "website": "https://www.tesla.com/",
+      "industry": "Manufacturing",
+      "jobs": [
+        {
+          "id": "job-tsla001",
+          "title": "Manufacturing Engineer",
+          "bannerImage": "https://via.placeholder.com/800x200/CC0000/FFFFFF?Text=Tesla+Manufacturing+Engineer",
+          "location": "Various Global Locations",
+          "salary": "$80,000 - $120,000",
+          "jobType": "Full-time",
+          "description": "Develop and optimize manufacturing processes for electric vehicles and energy products.",
+          "requirements": ["Bachelor's degree in Engineering (e.g., Mechanical, Industrial, Electrical)", "Experience in manufacturing or production environment", "Knowledge of lean manufacturing principles", "Strong problem-solving skills"]
+        },
+        {
+          "id": "job-tsla002",
+          "title": "Robotics Engineer",
+          "bannerImage": "https://via.placeholder.com/800x200/3D4E5D/FFFFFF?Text=Tesla+Robotics+Engineer",
+          "location": "Various Global Locations",
+          "salary": "$90,000 - $140,000",
+          "jobType": "Full-time",
+          "description": "Design, develop, and deploy robotic systems for manufacturing automation.",
+          "requirements": ["Bachelor's or Master's degree in Robotics, Mechanical Engineering, Electrical Engineering, or Computer Science", "Experience with industrial robots and automation systems", "Proficiency in programming languages (e.g., Python, C++)", "Strong understanding of control systems"]
+        },
+        {
+          "id": "job-tsla003",
+          "title": "Supply Chain Manager",
+          "bannerImage": "https://via.placeholder.com/800x200/E8E8E8/000000?Text=Tesla+Supply+Chain+Manager",
+          "location": "Various Global Locations",
+          "salary": "$95,000 - $135,000",
+          "jobType": "Full-time",
+          "description": "Manage the end-to-end supply chain for Tesla's components and products.",
+          "requirements": ["Bachelor's degree in Supply Chain Management, Business Administration, or related field", "Experience in supply chain planning, procurement, and logistics", "Strong negotiation and analytical skills", "Knowledge of global supply chain dynamics"]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Toyota",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Toyota_logo.svg",
+      "location": "Toyota City, Aichi, Japan",
+      "website": "https://global.toyota/",
+      "industry": "Manufacturing",
+      "jobs": [
+        {
+          "id": "job-tyt001",
+          "title": "Automotive Engineer",
+          "bannerImage": "https://via.placeholder.com/800x200/293132/FFFFFF?Text=Toyota+Automotive+Engineer",
+          "location": "Various Global Locations",
+          "salary": "¥7,000,000 - ¥10,000,000",
+          "jobType": "Full-time",
+          "description": "Design, develop, and test automotive components and systems.",
+          "requirements": ["Bachelor's or Master's degree in Automotive Engineering, Mechanical Engineering, or Electrical Engineering", "Experience in automotive design, testing, or manufacturing", "Knowledge of vehicle dynamics and safety standards", "Strong analytical and problem-solving skills"]
+        },
+        {
+          "id": "job-tyt002",
+          "title": "Production Manager",
+          "bannerImage": "https://via.placeholder.com/800x200/ED1C24/FFFFFF?Text=Toyota+Production+Manager",
+          "location": "Various Global Locations",
+          "salary": "¥6,500,000 - ¥9,500,000",
+          "jobType": "Full-time",
+          "description": "Oversee and optimize production processes in Toyota's manufacturing plants.",
+          "requirements": ["Bachelor's degree in Industrial Engineering, Manufacturing Engineering, or related field", "Experience in production management or supervision", "Knowledge of lean manufacturing and quality control", "Strong leadership and communication skills"]
+        },
+        {
+          "id": "job-tyt003",
+          "title": "Quality Assurance Engineer",
+          "bannerImage": "https://via.placeholder.com/800x200/FFFFFF/293132?Text=Toyota+Quality+Assurance+Engineer",
+          "location": "Various Global Locations",
+          "salary": "¥6,000,000 - ¥8,500,000",
+          "jobType": "Full-time",
+          "description": "Ensure the quality and reliability of Toyota's vehicles and components.",
+          "requirements": ["Bachelor's degree in Engineering or related field", "Experience in quality assurance or control in the automotive industry", "Knowledge of quality management systems (e.g., ISO 9001)", "Strong attention to detail and analytical skills"]
+        },
+        {
+          "id": "job-tyt004",
+          "title": "Materials Science Engineer",
+          "bannerImage": "https://via.placeholder.com/800x200/0078D7/FFFFFF?Text=Toyota+Materials+Science+Engineer",
+          "location": "Various Global Locations",
+          "salary": "¥6,800,000 - ¥9,800,000",
+          "jobType": "Full-time",
+          "description": "Research and develop new materials for use in Toyota vehicles.",
+          "requirements": ["Bachelor's or Master's degree in Materials Science, Metallurgical Engineering, or related field", "Experience in materials testing and characterization", "Knowledge of automotive material requirements", "Strong research and analytical skills"]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Siemens",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Siemens-logo.svg",
+      "location": "Munich, Germany",
+      "website": "https://www.siemens.com/",
+      "industry": "Manufacturing",
+      "jobs": [
+        {
+          "id": "job-sie001",
+          "title": "Electrical Engineer",
+          "bannerImage": "https://via.placeholder.com/800x200/1698D9/FFFFFF?Text=Siemens+Electrical+Engineer",
+          "location": "Various Global Locations",
+          "salary": "€60,000 - €90,000",
+          "jobType": "Full-time",
+          "description": "Design and develop electrical systems and components for industrial applications.",
+          "requirements": ["Bachelor's or Master's degree in Electrical Engineering", "Experience in electrical design, testing, or automation", "Knowledge of electrical standards and safety regulations", "Strong analytical and problem-solving skills"]
+        },
+        {
+          "id": "job-sie002",
+          "title": "Mechanical Design Engineer",
+          "bannerImage": "https://via.placeholder.com/800x200/00A9B5/FFFFFF?Text=Siemens+Mechanical+Design+Engineer",
+          "location": "Various Global Locations",
+          "salary": "€55,000 - €85,000",
+          "jobType": "Full-time",
+          "description": "Create and modify mechanical designs using CAD software.",
+          "requirements": ["Bachelor's or Master's degree in Mechanical Engineering", "Proficiency in CAD software (e.g., AutoCAD, SolidWorks)", "Knowledge of mechanical principles and materials", "Strong attention to detail and technical drawing skills"]
+        }
+      ]
+    },
+    {
+        "id": "7",
+        "name": "Netflix",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+        "location": "Los Gatos, CA, USA",
+        "website": "https://about.netflix.com/",
+        "industry": "SoftwareDevelopment",
+        "jobs": [
+          {
+            "id": "job-nf001",
+            "title": "Senior Software Engineer (Streaming Platform)",
+            "bannerImage": "https://via.placeholder.com/800x200/E50914/FFFFFF?Text=Netflix+Senior+Software+Engineer",
+            "location": "Various Global Locations",
+            "salary": "$150,000 - $250,000",
+            "jobType": "Full-time",
+            "description": "Develop and maintain the backend infrastructure for Netflix's global streaming platform.",
+            "requirements": ["Bachelor's degree in Computer Science or related field", "Extensive experience in backend development (e.g., Java, Python)", "Experience with distributed systems and cloud technologies (AWS)", "Strong understanding of performance and scalability"]
+          },
+          {
+            "id": "job-nf002",
+            "title": "UI/UX Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/B9090B/FFFFFF?Text=Netflix+UI/UX+Engineer",
+            "location": "Various Global Locations",
+            "salary": "$120,000 - $190,000",
+            "jobType": "Full-time",
+            "description": "Build and enhance the user interface and experience across various Netflix applications.",
+            "requirements": ["Bachelor's degree in Computer Science, Design, or related field", "Strong proficiency in modern web technologies (React, JavaScript, HTML, CSS)", "Experience with user-centered design principles", "Excellent problem-solving and communication skills"]
+          },
+          {
+            "id": "job-nf003",
+            "title": "Data Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/FFFAFA/000000?Text=Netflix+Data+Engineer",
+            "location": "Various Global Locations",
+            "salary": "$130,000 - $210,000",
+            "jobType": "Full-time",
+            "description": "Design, build, and maintain scalable data pipelines for Netflix's data analytics and machine learning efforts.",
+            "requirements": ["Bachelor's or Master's degree in Computer Science, Data Science, or related field", "Experience with big data technologies (e.g., Spark, Hadoop, Kafka)", "Strong SQL and data modeling skills", "Proficiency in programming languages (e.g., Python, Scala)"]
+          }
+        ]
+      },
+      {
+        "id": "8",
+        "name": "General Electric (GE)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/GE_logo.svg",
+        "location": "Boston, MA, USA",
+        "website": "https://www.ge.com/",
+        "industry": "Manufacturing",
+        "jobs": [
+          {
+            "id": "job-ge001",
+            "title": "Aerospace Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/0071BC/FFFFFF?Text=GE+Aerospace+Engineer",
+            "location": "Various Global Locations",
+            "salary": "$85,000 - $130,000",
+            "jobType": "Full-time",
+            "description": "Design, develop, and test components and systems for aircraft engines and related technologies.",
+            "requirements": ["Bachelor's or Master's degree in Aerospace Engineering or Mechanical Engineering", "Experience in aerospace design, analysis, or testing", "Knowledge of aerodynamics, thermodynamics, or materials science", "Strong analytical and problem-solving skills"]
+          },
+          {
+            "id": "job-ge002",
+            "title": "Power Generation Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/F26522/FFFFFF?Text=GE+Power+Generation+Engineer",
+            "location": "Various Global Locations",
+            "salary": "$80,000 - $125,000",
+            "jobType": "Full-time",
+            "description": "Develop and optimize technologies for power generation, including gas turbines and renewable energy systems.",
+            "requirements": ["Bachelor's or Master's degree in Mechanical Engineering, Electrical Engineering, or related field", "Experience in power plant design, operation, or maintenance", "Knowledge of thermodynamics, fluid mechanics, or electrical systems", "Strong analytical and problem-solving skills"]
+          },
+          {
+            "id": "job-ge003",
+            "title": "Manufacturing Operations Manager",
+            "bannerImage": "https://via.placeholder.com/800x200/00A9B5/FFFFFF?Text=GE+Manufacturing+Operations+Manager",
+            "location": "Various Global Locations",
+            "salary": "$90,000 - $140,000",
+            "jobType": "Full-time",
+            "description": "Lead and manage manufacturing operations to ensure efficiency, quality, and safety.",
+            "requirements": ["Bachelor's degree in Engineering, Business Administration, or related field", "Experience in manufacturing management or supervision", "Knowledge of lean manufacturing, Six Sigma, or other process improvement methodologies", "Strong leadership and communication skills"]
+          }
+        ]
+      },
+      {
+        "id": "9",
+        "name": "Vestas",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Vestas_logo.svg",
+        "location": "Aarhus, Denmark",
+        "website": "https://www.vestas.com/",
+        "industry": "RenewableEnergy",
+        "jobs": [
+          {
+            "id": "job-vts001",
+            "title": "Wind Turbine Technician",
+            "bannerImage": "https://via.placeholder.com/800x200/00B050/FFFFFF?Text=Vestas+Wind+Turbine+Technician",
+            "location": "Various Global Locations",
+            "salary": "€40,000 - €65,000",
+            "jobType": "Full-time",
+            "description": "Install, maintain, and repair wind turbines in onshore and offshore wind farms.",
+            "requirements": ["Technical education or vocational training in electrical or mechanical fields", "Experience in wind turbine maintenance or related industrial equipment", "Strong technical and troubleshooting skills", "Willingness to work at heights and in varying weather conditions"]
+          },
+          {
+            "id": "job-vts002",
+            "title": "Project Manager (Wind Power)",
+            "bannerImage": "https://via.placeholder.com/800x200/64DD17/FFFFFF?Text=Vestas+Project+Manager",
+            "location": "Various Global Locations",
+            "salary": "€65,000 - €95,000",
+            "jobType": "Full-time",
+            "description": "Manage the planning, execution, and completion of wind power projects.",
+            "requirements": ["Bachelor's degree in Engineering, Project Management, or related field", "Experience in managing large-scale construction or energy projects", "Strong organizational, communication, and leadership skills", "Knowledge of the renewable energy sector"]
+          },
+          {
+            "id": "job-vts003",
+            "title": "Electrical Engineer (Wind Turbines)",
+            "bannerImage": "https://via.placeholder.com/800x200/B2FF59/000000?Text=Vestas+Electrical+Engineer",
+            "location": "Various Global Locations",
+            "salary": "€55,000 - €85,000",
+            "jobType": "Full-time",
+            "description": "Design and develop electrical systems for wind turbines and grid integration.",
+            "requirements": ["Bachelor's or Master's degree in Electrical Engineering or related field", "Experience in power systems, control systems, or electrical design", "Knowledge of renewable energy technologies and grid codes", "Strong analytical and problem-solving skills"]
+          },
+          {
+            "id": "job-vts004",
+            "title": "Sales Manager (Renewable Energy Solutions)",
+            "bannerImage": "https://via.placeholder.com/800x200/8BC34A/FFFFFF?Text=Vestas+Sales+Manager",
+            "location": "Various Global Locations",
+            "salary": "€70,000 - €110,000 (OTE)",
+            "jobType": "Full-time",
+            "description": "Drive sales of Vestas' wind energy solutions to new and existing customers.",
+            "requirements": ["Bachelor's degree in Business Administration, Engineering, or related field", "Proven experience in sales, preferably in the renewable energy sector", "Strong negotiation and relationship-building skills", "Understanding of the wind energy market and customer needs"]
+          }
+        ]
+      },
+      {
+        "id": "10",
+        "name": "SolarEdge Technologies",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/SolarEdge_logo.svg/800px-SolarEdge_logo.svg.png",
+        "location": "Herzliya, Israel",
+        "website": "https://www.solaredge.com/",
+        "industry": "RenewableEnergy",
+        "jobs": [
+          {
+            "id": "job-sedg001",
+            "title": "PV System Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/FFC107/000000?Text=SolarEdge+PV+System+Engineer",
+            "location": "Various Global Locations",
+            "salary": "$75,000 - $110,000",
+            "jobType": "Full-time",
+            "description": "Design and engineer photovoltaic (PV) systems using SolarEdge's inverters and optimizers.",
+            "requirements": ["Bachelor's degree in Electrical Engineering or related field", "Experience in PV system design and engineering", "Knowledge of solar energy principles and industry standards", "Proficiency in PV design software"]
+          },
+          {
+            "id": "job-sedg002",
+            "title": "Firmware Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/FF9800/FFFFFF?Text=SolarEdge+Firmware+Engineer",
+            "location": "Various Global Locations",
+            "salary": "$90,000 - $140,000",
+            "jobType": "Full-time",
+            "description": "Develop and maintain firmware for SolarEdge's smart energy devices.",
+            "requirements": ["Bachelor's or Master's degree in Electrical Engineering, Computer Engineering, or related field", "Experience in embedded systems and firmware development (C/C++)", "Knowledge of communication protocols and real-time operating systems", "Strong debugging and problem-solving skills"]
+          },
+          {
+            "id": "job-sedg003",
+            "title": "Technical Support Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/F44336/FFFFFF?Text=SolarEdge+Technical+Support",
+            "location": "Various Global Locations",
+            "salary": "$60,000 - $90,000",
+            "jobType": "Full-time",
+            "description": "Provide technical support to installers and customers regarding SolarEdge products and systems.",
+            "requirements": ["Bachelor's degree in Electrical Engineering or related technical field", "Experience in technical support or customer service", "Strong understanding of PV systems and electronics", "Excellent communication and troubleshooting skills"]
+          },
+          {
+            "id": "job-sedg004",
+            "title": "Grid Integration Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/9C27B0/FFFFFF?Text=SolarEdge+Grid+Integration+Engineer",
+            "location": "Various Global Locations",
+            "salary": "$80,000 - $120,000",
+            "jobType": "Full-time",
+            "description": "Work on the integration of SolarEdge products with the electrical grid, ensuring compliance and performance.",
+            "requirements": ["Bachelor's or Master's degree in Electrical Engineering or Power Systems", "Experience with grid codes, regulations, and standards", "Knowledge of power electronics and control systems", "Strong analytical and problem-solving skills"]
+          }
+        ]
+      },
+      {
+        "id": "11",
+        "name": "Orsted",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%C3%98rsted_logo.svg/800px-%C3%98rsted_logo.svg.png",
+        "location": "Fredericia, Denmark",
+        "website": "https://orsted.com/",
+        "industry": "RenewableEnergy",
+        "jobs": [
+          {
+            "id": "job-ors001",
+            "title": "Offshore Wind Farm Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/03A9F4/FFFFFF?Text=Orsted+Offshore+Wind+Engineer",
+            "location": "Various Global Locations",
+            "salary": "€60,000 - €95,000",
+            "jobType": "Full-time",
+            "description": "Contribute to the development, construction, and operation of offshore wind farms.",
+            "requirements": ["Bachelor's or Master's degree in Engineering (e.g., Civil, Mechanical, Electrical)", "Experience in offshore wind or marine engineering projects", "Knowledge of structural design, geotechnical engineering, or electrical systems", "Strong project management and teamwork skills"]
+          },
+          {
+            "id": "job-ors002",
+            "title": "Environmental Specialist (Offshore Wind)",
+            "bannerImage": "https://via.placeholder.com/800x200/4CAF50/FFFFFF?Text=Orsted+Environmental+Specialist",
+            "location": "Various Global Locations",
+            "salary": "€55,000 - €85,000",
+            "jobType": "Full-time",
+            "description": "Assess and manage the environmental impact of Orsted's offshore wind projects.",
+            "requirements": ["Bachelor's or Master's degree in Environmental Science, Marine Biology, or related field", "Experience in environmental impact assessments and mitigation measures", "Knowledge of marine ecosystems and regulations", "Strong analytical and reporting skills"]
+          },
+          {
+            "id": "job-ors003",
+            "title": "Grid Connection Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/FFEB3B/000000?Text=Orsted+Grid+Connection+Engineer",
+            "location": "Various Global Locations",
+            "salary": "€65,000 - €100,000",
+            "jobType": "Full-time",
+            "description": "Manage the connection of offshore wind farms to the onshore power grid.",
+            "requirements": ["Bachelor's or Master's degree in Electrical Engineering or Power Systems", "Experience with high-voltage transmission systems and grid codes", "Knowledge of power system analysis and protection", "Strong project management and negotiation skills"]
+          }
+        ]
+      },
+      {
+        "id": "12",
+        "name": "Salesforce",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/79/Salesforce.com_logo.svg",
+        "location": "San Francisco, CA, USA",
+        "website": "https://www.salesforce.com/",
+        "industry": "SoftwareDevelopment",
+        "jobs": [
+          {
+            "id": "job-sf001",
+            "title": "Salesforce Developer",
+            "bannerImage": "https://via.placeholder.com/800x200/00A1E0/FFFFFF?Text=Salesforce+Developer",
+            "location": "Various Global Locations",
+            "salary": "$110,000 - $170,000",
+            "jobType": "Full-time",
+            "description": "Develop and customize solutions on the Salesforce platform using Apex and Lightning.",
+            "requirements": ["Bachelor's degree in Computer Science or related field", "Experience with Salesforce development (Apex, Visualforce, Lightning)", "Understanding of CRM concepts", "Salesforce certifications are a plus"]
+          },
+          {
+            "id": "job-sf002",
+            "title": "Solutions Architect (Sales Cloud)",
+            "bannerImage": "https://via.placeholder.com/800x200/00576B/FFFFFF?Text=Salesforce+Solutions+Architect",
+            "location": "Various Global Locations",
+            "salary": "$140,000 - $220,000",
+            "jobType": "Full-time",
+            "description": "Design and implement scalable and high-performance solutions on the Salesforce Sales Cloud.",
+            "requirements": ["Bachelor's degree in Computer Science or related field", "Extensive experience with Salesforce Sales Cloud", "Strong understanding of system integration and data migration", "Excellent communication and client-facing skills"]
+          },
+          {
+            "id": "job-sf003",
+            "title": "Technical Lead (Marketing Cloud)",
+            "bannerImage": "https://via.placeholder.com/800x200/7F53AC/FFFFFF?Text=Salesforce+Marketing+Cloud+Lead",
+            "location": "Various Global Locations",
+            "salary": "$130,000 - $200,000",
+            "jobType": "Full-time",
+            "description": "Lead technical teams in the implementation and customization of Salesforce Marketing Cloud solutions.",
+            "requirements": ["Bachelor's degree in Computer Science or related field", "Strong experience with Salesforce Marketing Cloud", "Knowledge of email marketing, automation, and customer journeys", "Leadership and mentoring skills"]
+          }
+        ]
+      },
+      {
+        "id": "13",
+        "name": "Ford Motor Company",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/34/Ford_Motor_Company_logo.svg",
+        "location": "Dearborn, MI, USA",
+        "website": "https://www.ford.com/",
+        "industry": "Manufacturing",
+        "jobs": [
+          {
+            "id": "job-fmc001",
+            "title": "Vehicle Dynamics Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/1E3A8A/FFFFFF?Text=Ford+Vehicle+Dynamics+Engineer",
+            "location": "Various Global Locations",
+            "salary": "$80,000 - $125,000",
+            "jobType": "Full-time",
+            "description": "Develop and refine the handling, stability, and ride quality of Ford vehicles.",
+            "requirements": ["Bachelor's or Master's degree in Mechanical or Automotive Engineering", "Experience in vehicle dynamics testing and simulation", "Knowledge of chassis systems and control algorithms", "Strong analytical and problem-solving skills"]
+          },
+          {
+            "id": "job-fmc002",
+            "title": "Powertrain Calibration Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/C62828/FFFFFF?Text=Ford+Powertrain+Calibration",
+            "location": "Various Global Locations",
+            "salary": "$85,000 - $130,000",
+            "jobType": "Full-time",
+            "description": "Calibrate engine and transmission control systems to meet performance, emissions, and fuel economy targets.",
+            "requirements": ["Bachelor's or Master's degree in Mechanical or Electrical Engineering", "Experience in powertrain calibration and testing", "Knowledge of engine and transmission control strategies", "Proficiency in data acquisition and analysis tools"]
+          },
+          {
+            "id": "job-fmc003",
+            "title": "Advanced Manufacturing Process Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/424242/FFFFFF?Text=Ford+Advanced+Manufacturing",
+            "location": "Various Global Locations",
+            "salary": "$90,000 - $140,000",
+            "jobType": "Full-time",
+            "description": "Research, develop, and implement innovative manufacturing processes for future vehicle production.",
+            "requirements": ["Bachelor's or Master's degree in Manufacturing, Industrial, or Mechanical Engineering", "Experience in advanced manufacturing technologies (e.g., 3D printing, robotics)", "Knowledge of process design and optimization", "Strong project management skills"]
+          },
+          {
+            "id": "job-fmc004",
+            "title": "Autonomous Vehicle Software Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/0D47A1/FFFFFF?Text=Ford+Autonomous+Vehicle+Software",
+            "location": "Various Global Locations",
+            "salary": "$120,000 - $180,000",
+            "jobType": "Full-time",
+            "description": "Develop software algorithms for autonomous driving systems.",
+            "requirements": ["Bachelor's or Master's degree in Computer Science, Robotics, or related field", "Strong programming skills (e.g., C++, Python)", "Experience with sensor fusion, perception, or control systems", "Knowledge of robotics and autonomous vehicle technologies"]
+          }
+        ]
+      },
+      {
+        "id": "14",
+        "name": "NextEra Energy",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/NextEra_Energy_logo.svg/800px-NextEra_Energy_logo.svg.png",
+        "location": "Juno Beach, FL, USA",
+        "website": "https://www.nexteraenergy.com/",
+        "industry": "RenewableEnergy",
+        "jobs": [
+          {
+            "id": "job-nee001",
+            "title": "Renewable Energy Project Developer",
+            "bannerImage": "https://via.placeholder.com/800x200/AEEA00/000000?Text=NextEra+Project+Developer",
+            "location": "Various Locations in the US",
+            "salary": "$85,000 - $135,000",
+            "jobType": "Full-time",
+            "description": "Identify, evaluate, and develop new renewable energy projects (wind, solar, storage).",
+            "requirements": ["Bachelor's degree in Engineering, Business, Environmental Science, or related field", "Experience in renewable energy project development", "Knowledge of energy markets and regulations", "Strong analytical and negotiation skills"]
+          },
+          {
+            "id": "job-nee002",
+            "title": "Solar Farm Operations Manager",
+            "bannerImage": "https://via.placeholder.com/800x200/FFD600/000000?Text=NextEra+Solar+Farm+Manager",
+            "location": "Various Locations in the US",
+            "salary": "$75,000 - $115,000",
+            "jobType": "Full-time",
+            "description": "Oversee the daily operations and maintenance of utility-scale solar farms.",
+            "requirements": ["Bachelor's degree in Engineering or related technical field", "Experience in solar farm operations and maintenance", "Knowledge of PV systems and electrical equipment", "Strong leadership and problem-solving skills"]
+          },
+          {
+            "id": "job-nee003",
+            "title": "Wind Turbine Maintenance Technician",
+            "bannerImage": "https://via.placeholder.com/800x200/80CBC4/000000?Text=NextEra+Wind+Technician",
+            "location": "Various Locations in the US",
+            "salary": "$45,000 - $70,000",
+            "jobType": "Full-time",
+            "description": "Perform maintenance, troubleshooting, and repairs on wind turbines.",
+            "requirements": ["Technical education or vocational training in a related field", "Experience in wind turbine maintenance or heavy equipment repair", "Strong mechanical and electrical aptitude", "Ability to work at heights"]
+          }
+        ]
+      },
+      {
+        "id": "15",
+        "name": "Qualcomm",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Qualcomm_logo.svg/800px-Qualcomm_logo.svg.png",
+        "location": "San Diego, CA, USA",
+        "website": "https://www.qualcomm.com/",
+        "industry": "SoftwareDevelopment",
+        "jobs": [
+          {
+            "id": "job-qcom001",
+            "title": "Wireless Systems Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/00796B/FFFFFF?Text=Qualcomm+Wireless+Engineer",
+            "location": "Various Global Locations",
+            "salary": "$120,000 - $190,000",
+            "jobType": "Full-time",
+            "description": "Design and develop advanced wireless communication systems (e.g., 5G, Wi-Fi).",
+            "requirements": ["Master's or PhD in Electrical Engineering or related field", "Strong understanding of wireless communication principles", "Experience with signal processing, communication theory, or RF engineering", "Proficiency in simulation and analysis tools"]
+          },
+          {
+            "id": "job-qcom002",
+            "title": "Mobile Software Engineer (Android)",
+            "bannerImage": "https://via.placeholder.com/800x200/3D5AFE/FFFFFF?Text=Qualcomm+Android+Engineer",
+            "location": "Various Global Locations",
+            "salary": "$115,000 - $180,000",
+            "jobType": "Full-time",
+            "description": "Develop software for Qualcomm's mobile platforms and technologies.",
+            "requirements": ["Bachelor's or Master's degree in Computer Science or related field", "Strong proficiency in Java or Kotlin", "Experience with Android development framework", "Understanding of mobile operating systems and embedded systems"]
+          },
+          {
+            "id": "job-qcom003",
+            "title": "Computer Vision Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/00ACC1/FFFFFF?Text=Qualcomm+Computer+Vision",
+            "location": "Various Global Locations",
+            "salary": "$125,000 - $195,000",
+            "jobType": "Full-time",
+            "description": "Research and develop computer vision algorithms for mobile and automotive applications.",
+            "requirements": ["Master's or PhD in Computer Science, Electrical Engineering, or related field", "Strong background in computer vision, image processing, and machine learning", "Experience with relevant libraries and frameworks (e.g., OpenCV, TensorFlow)", "Proficiency in programming languages (e.g., Python, C++)"]
+          }
+        ]
+      },
+      {
+        "id": "16",
+        "name": "BMW",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f4/BMW_logo_%28gray%29.svg",
+        "location": "Munich, Germany",
+        "website": "https://www.bmwgroup.com/",
+        "industry": "Manufacturing",
+        "jobs": [
+          {
+            "id": "job-bmw001",
+            "title": "Automotive Electronics Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/0064B4/FFFFFF?Text=BMW+Electronics+Engineer",
+            "location": "Various Global Locations",
+            "salary": "€65,000 - €100,000",
+            "jobType": "Full-time",
+            "description": "Design and develop electronic systems and components for BMW vehicles.",
+            "requirements": ["Bachelor's or Master's degree in Electrical Engineering or Automotive Engineering", "Experience in automotive electronics development", "Knowledge of vehicle communication protocols (e.g., CAN, LIN)", "Strong analytical and problem-solving skills"]
+          },
+          {
+            "id": "job-bmw002",
+            "title": "Interior Design Engineer (Automotive)",
+            "bannerImage": "https://via.placeholder.com/800x200/BDBDBD/000000?Text=BMW+Interior+Design",
+            "location": "Various Global Locations",
+            "salary": "€55,000 - €85,000",
+            "jobType": "Full-time",
+            "description": "Design and develop the interior components and aesthetics of BMW vehicles.",
+            "requirements": ["Bachelor's degree in Industrial Design, Automotive Design, or related field", "Strong sketching, 3D modeling, and visualization skills", "Knowledge of automotive materials and manufacturing processes", "Excellent communication and presentation skills"]
+          },
+          {
+            "id": "job-bmw003",
+            "title": "Manufacturing Quality Engineer",
+            "bannerImage": "https://via.placeholder.com/800x200/D32F2F/FFFFFF?Text=BMW+Manufacturing+Quality",
+            "location": "Various Global Locations",
+            "salary": "€60,000 - €95,000",
+            "jobType": "Full-time",
+            "description": "Ensure the quality standards are met throughout the vehicle manufacturing process.",
+            "requirements": ["Bachelor's degree in Engineering or related field", "Experience in quality assurance or control in a manufacturing environment", "Knowledge of quality management systems (e.g., ISO 9001, IATF 16949)", "Strong attention to detail and problem-solving skills"]
+          }
+        ]
+      }
+]

@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import How_it_works from '../components/How_it_works/How_it_works';
 import All_Companies from '../components/Company/All_Companies';
+import Hero from '../components/Hero/Hero';
+// import { useLoaderData } from 'react-router';
 
 const HomeLayout = () => {
+    // const companyData = useLoaderData();
+    const [companyData, setCompanyData] = useState();
+    useEffect(()=>{
+        fetch('main-company.json').then(res=>res.json()).then(data=> setCompanyData(data));
+    }, [])
     return (
         <div>
+            <section className='bg-[url(/src/assets/shiny-overlay.svg)] bg-cover bg-center'>
+                <Hero></Hero>
+            </section>
             <section>
                 <How_it_works></How_it_works>
             </section>
             <section>
-                <All_Companies></All_Companies>
+                <All_Companies companyData={companyData}></All_Companies>
             </section>
         </div>
     );

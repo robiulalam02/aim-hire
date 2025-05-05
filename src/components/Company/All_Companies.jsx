@@ -1,9 +1,15 @@
 import React from 'react';
+import CompanyCard from './CompanyCard';
 
-const All_Companies = () => {
+const All_Companies = ({companyData}) => {
     return (
-        <div>
+        <div className='max-w-screen-xl mx-auto my-20'>
             <h2 className='text-center text-3xl font-semibold'>Available <span className='text-secondary'>Companies</span></h2>
+            <div className='grid grid-cols-4 gap-6 mt-12'>
+                {
+                    companyData?.map(data=> <CompanyCard key={data.id} data={data}></CompanyCard>)
+                }
+            </div>
         </div>
     );
 };

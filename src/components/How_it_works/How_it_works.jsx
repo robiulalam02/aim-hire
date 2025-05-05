@@ -2,7 +2,7 @@ import React from 'react';
 
 const How_it_works = () => {
     return (
-        <div className='max-w-screen-xl mx-auto h-96 my-20'>
+        <div className='max-w-screen-xl mx-auto h-96 mt-20'>
             <h2 className='text-center text-3xl font-semibold'>How It <span className='text-secondary'>Works?</span></h2>
             <div className='flex items-center gap-6 justify-between mt-12'>
 

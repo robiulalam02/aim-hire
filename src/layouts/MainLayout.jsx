@@ -3,13 +3,13 @@ import Navbar from '../components/Navbar/Navbar';
 import Hero from '../components/Hero/Hero';
 import { Outlet } from 'react-router';
 import Footer from '../components/Footer/Footer';
+import HomeLayout from '../pages/HomeLayout';
 
 const MainLayout = () => {
     return (
         <div>
-            <header className='bg-[url(/src/assets/shiny-overlay.svg)] bg-cover bg-center'>
+            <header>
                 <Navbar />
-                <Hero />
             </header>
             <main>
                 <Outlet></Outlet>

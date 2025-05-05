@@ -2,7 +2,7 @@
     {
       "id": "1",
       "name": "Google",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg",
+      "logo": "https://i.postimg.cc/fWcP7x4z/google-logo.png",
       "location": "Mountain View, CA, USA",
       "website": "https://about.google/",
       "industry": "SoftwareDevelopment",
@@ -42,7 +42,7 @@
     {
       "id": "2",
       "name": "Microsoft",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg",
+      "logo": "https://i.postimg.cc/MpTr8NnH/microsoft-logo.png",
       "location": "Redmond, WA, USA",
       "website": "https://www.microsoft.com/",
       "industry": "SoftwareDevelopment",
@@ -82,7 +82,7 @@
     {
       "id": "3",
       "name": "Amazon",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+      "logo": "https://i.postimg.cc/fRrqWCdK/amazon-logo.webp",
       "location": "Seattle, WA, USA",
       "website": "https://www.amazon.com/",
       "industry": "SoftwareDevelopment",
@@ -132,7 +132,7 @@
     {
       "id": "4",
       "name": "Tesla",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
+      "logo": "https://i.postimg.cc/mZdL4cjS/tesla-logo.png",
       "location": "Austin, TX, USA",
       "website": "https://www.tesla.com/",
       "industry": "Manufacturing",
@@ -172,7 +172,7 @@
     {
       "id": "5",
       "name": "Toyota",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Toyota_logo.svg",
+      "logo": "https://i.postimg.cc/d185BKxH/toyota-logo.png",
       "location": "Toyota City, Aichi, Japan",
       "website": "https://global.toyota/",
       "industry": "Manufacturing",
@@ -222,7 +222,7 @@
     {
       "id": "6",
       "name": "Siemens",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Siemens-logo.svg",
+      "logo": "https://i.postimg.cc/Qx60Smf3/Siemens-logo.png",
       "location": "Munich, Germany",
       "website": "https://www.siemens.com/",
       "industry": "Manufacturing",
@@ -252,7 +252,7 @@
     {
         "id": "7",
         "name": "Netflix",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+        "logo": "https://i.postimg.cc/0yFZ1QgX/netflix-logo.png",
         "location": "Los Gatos, CA, USA",
         "website": "https://about.netflix.com/",
         "industry": "SoftwareDevelopment",
@@ -292,7 +292,7 @@
       {
         "id": "8",
         "name": "General Electric (GE)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/a/ab/GE_logo.svg",
+        "logo": "https://i.postimg.cc/C1H48sR9/General-Electric-Logo.png",
         "location": "Boston, MA, USA",
         "website": "https://www.ge.com/",
         "industry": "Manufacturing",
@@ -332,7 +332,7 @@
       {
         "id": "9",
         "name": "Vestas",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Vestas_logo.svg",
+        "logo": "https://i.postimg.cc/zX5BDZYJ/vestas-logo.webp",
         "location": "Aarhus, Denmark",
         "website": "https://www.vestas.com/",
         "industry": "RenewableEnergy",
@@ -382,7 +382,7 @@
       {
         "id": "10",
         "name": "SolarEdge Technologies",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/SolarEdge_logo.svg/800px-SolarEdge_logo.svg.png",
+        "logo": "https://i.postimg.cc/fRqTvVtL/solaredge-logo.png",
         "location": "Herzliya, Israel",
         "website": "https://www.solaredge.com/",
         "industry": "RenewableEnergy",
@@ -431,178 +431,8 @@
       },
       {
         "id": "11",
-        "name": "Orsted",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/%C3%98rsted_logo.svg/800px-%C3%98rsted_logo.svg.png",
-        "location": "Fredericia, Denmark",
-        "website": "https://orsted.com/",
-        "industry": "RenewableEnergy",
-        "jobs": [
-          {
-            "id": "job-ors001",
-            "title": "Offshore Wind Farm Engineer",
-            "bannerImage": "https://via.placeholder.com/800x200/03A9F4/FFFFFF?Text=Orsted+Offshore+Wind+Engineer",
-            "location": "Various Global Locations",
-            "salary": "€60,000 - €95,000",
-            "jobType": "Full-time",
-            "description": "Contribute to the development, construction, and operation of offshore wind farms.",
-            "requirements": ["Bachelor's or Master's degree in Engineering (e.g., Civil, Mechanical, Electrical)", "Experience in offshore wind or marine engineering projects", "Knowledge of structural design, geotechnical engineering, or electrical systems", "Strong project management and teamwork skills"]
-          },
-          {
-            "id": "job-ors002",
-            "title": "Environmental Specialist (Offshore Wind)",
-            "bannerImage": "https://via.placeholder.com/800x200/4CAF50/FFFFFF?Text=Orsted+Environmental+Specialist",
-            "location": "Various Global Locations",
-            "salary": "€55,000 - €85,000",
-            "jobType": "Full-time",
-            "description": "Assess and manage the environmental impact of Orsted's offshore wind projects.",
-            "requirements": ["Bachelor's or Master's degree in Environmental Science, Marine Biology, or related field", "Experience in environmental impact assessments and mitigation measures", "Knowledge of marine ecosystems and regulations", "Strong analytical and reporting skills"]
-          },
-          {
-            "id": "job-ors003",
-            "title": "Grid Connection Engineer",
-            "bannerImage": "https://via.placeholder.com/800x200/FFEB3B/000000?Text=Orsted+Grid+Connection+Engineer",
-            "location": "Various Global Locations",
-            "salary": "€65,000 - €100,000",
-            "jobType": "Full-time",
-            "description": "Manage the connection of offshore wind farms to the onshore power grid.",
-            "requirements": ["Bachelor's or Master's degree in Electrical Engineering or Power Systems", "Experience with high-voltage transmission systems and grid codes", "Knowledge of power system analysis and protection", "Strong project management and negotiation skills"]
-          }
-        ]
-      },
-      {
-        "id": "12",
-        "name": "Salesforce",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/7/79/Salesforce.com_logo.svg",
-        "location": "San Francisco, CA, USA",
-        "website": "https://www.salesforce.com/",
-        "industry": "SoftwareDevelopment",
-        "jobs": [
-          {
-            "id": "job-sf001",
-            "title": "Salesforce Developer",
-            "bannerImage": "https://via.placeholder.com/800x200/00A1E0/FFFFFF?Text=Salesforce+Developer",
-            "location": "Various Global Locations",
-            "salary": "$110,000 - $170,000",
-            "jobType": "Full-time",
-            "description": "Develop and customize solutions on the Salesforce platform using Apex and Lightning.",
-            "requirements": ["Bachelor's degree in Computer Science or related field", "Experience with Salesforce development (Apex, Visualforce, Lightning)", "Understanding of CRM concepts", "Salesforce certifications are a plus"]
-          },
-          {
-            "id": "job-sf002",
-            "title": "Solutions Architect (Sales Cloud)",
-            "bannerImage": "https://via.placeholder.com/800x200/00576B/FFFFFF?Text=Salesforce+Solutions+Architect",
-            "location": "Various Global Locations",
-            "salary": "$140,000 - $220,000",
-            "jobType": "Full-time",
-            "description": "Design and implement scalable and high-performance solutions on the Salesforce Sales Cloud.",
-            "requirements": ["Bachelor's degree in Computer Science or related field", "Extensive experience with Salesforce Sales Cloud", "Strong understanding of system integration and data migration", "Excellent communication and client-facing skills"]
-          },
-          {
-            "id": "job-sf003",
-            "title": "Technical Lead (Marketing Cloud)",
-            "bannerImage": "https://via.placeholder.com/800x200/7F53AC/FFFFFF?Text=Salesforce+Marketing+Cloud+Lead",
-            "location": "Various Global Locations",
-            "salary": "$130,000 - $200,000",
-            "jobType": "Full-time",
-            "description": "Lead technical teams in the implementation and customization of Salesforce Marketing Cloud solutions.",
-            "requirements": ["Bachelor's degree in Computer Science or related field", "Strong experience with Salesforce Marketing Cloud", "Knowledge of email marketing, automation, and customer journeys", "Leadership and mentoring skills"]
-          }
-        ]
-      },
-      {
-        "id": "13",
-        "name": "Ford Motor Company",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/3/34/Ford_Motor_Company_logo.svg",
-        "location": "Dearborn, MI, USA",
-        "website": "https://www.ford.com/",
-        "industry": "Manufacturing",
-        "jobs": [
-          {
-            "id": "job-fmc001",
-            "title": "Vehicle Dynamics Engineer",
-            "bannerImage": "https://via.placeholder.com/800x200/1E3A8A/FFFFFF?Text=Ford+Vehicle+Dynamics+Engineer",
-            "location": "Various Global Locations",
-            "salary": "$80,000 - $125,000",
-            "jobType": "Full-time",
-            "description": "Develop and refine the handling, stability, and ride quality of Ford vehicles.",
-            "requirements": ["Bachelor's or Master's degree in Mechanical or Automotive Engineering", "Experience in vehicle dynamics testing and simulation", "Knowledge of chassis systems and control algorithms", "Strong analytical and problem-solving skills"]
-          },
-          {
-            "id": "job-fmc002",
-            "title": "Powertrain Calibration Engineer",
-            "bannerImage": "https://via.placeholder.com/800x200/C62828/FFFFFF?Text=Ford+Powertrain+Calibration",
-            "location": "Various Global Locations",
-            "salary": "$85,000 - $130,000",
-            "jobType": "Full-time",
-            "description": "Calibrate engine and transmission control systems to meet performance, emissions, and fuel economy targets.",
-            "requirements": ["Bachelor's or Master's degree in Mechanical or Electrical Engineering", "Experience in powertrain calibration and testing", "Knowledge of engine and transmission control strategies", "Proficiency in data acquisition and analysis tools"]
-          },
-          {
-            "id": "job-fmc003",
-            "title": "Advanced Manufacturing Process Engineer",
-            "bannerImage": "https://via.placeholder.com/800x200/424242/FFFFFF?Text=Ford+Advanced+Manufacturing",
-            "location": "Various Global Locations",
-            "salary": "$90,000 - $140,000",
-            "jobType": "Full-time",
-            "description": "Research, develop, and implement innovative manufacturing processes for future vehicle production.",
-            "requirements": ["Bachelor's or Master's degree in Manufacturing, Industrial, or Mechanical Engineering", "Experience in advanced manufacturing technologies (e.g., 3D printing, robotics)", "Knowledge of process design and optimization", "Strong project management skills"]
-          },
-          {
-            "id": "job-fmc004",
-            "title": "Autonomous Vehicle Software Engineer",
-            "bannerImage": "https://via.placeholder.com/800x200/0D47A1/FFFFFF?Text=Ford+Autonomous+Vehicle+Software",
-            "location": "Various Global Locations",
-            "salary": "$120,000 - $180,000",
-            "jobType": "Full-time",
-            "description": "Develop software algorithms for autonomous driving systems.",
-            "requirements": ["Bachelor's or Master's degree in Computer Science, Robotics, or related field", "Strong programming skills (e.g., C++, Python)", "Experience with sensor fusion, perception, or control systems", "Knowledge of robotics and autonomous vehicle technologies"]
-          }
-        ]
-      },
-      {
-        "id": "14",
-        "name": "NextEra Energy",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/NextEra_Energy_logo.svg/800px-NextEra_Energy_logo.svg.png",
-        "location": "Juno Beach, FL, USA",
-        "website": "https://www.nexteraenergy.com/",
-        "industry": "RenewableEnergy",
-        "jobs": [
-          {
-            "id": "job-nee001",
-            "title": "Renewable Energy Project Developer",
-            "bannerImage": "https://via.placeholder.com/800x200/AEEA00/000000?Text=NextEra+Project+Developer",
-            "location": "Various Locations in the US",
-            "salary": "$85,000 - $135,000",
-            "jobType": "Full-time",
-            "description": "Identify, evaluate, and develop new renewable energy projects (wind, solar, storage).",
-            "requirements": ["Bachelor's degree in Engineering, Business, Environmental Science, or related field", "Experience in renewable energy project development", "Knowledge of energy markets and regulations", "Strong analytical and negotiation skills"]
-          },
-          {
-            "id": "job-nee002",
-            "title": "Solar Farm Operations Manager",
-            "bannerImage": "https://via.placeholder.com/800x200/FFD600/000000?Text=NextEra+Solar+Farm+Manager",
-            "location": "Various Locations in the US",
-            "salary": "$75,000 - $115,000",
-            "jobType": "Full-time",
-            "description": "Oversee the daily operations and maintenance of utility-scale solar farms.",
-            "requirements": ["Bachelor's degree in Engineering or related technical field", "Experience in solar farm operations and maintenance", "Knowledge of PV systems and electrical equipment", "Strong leadership and problem-solving skills"]
-          },
-          {
-            "id": "job-nee003",
-            "title": "Wind Turbine Maintenance Technician",
-            "bannerImage": "https://via.placeholder.com/800x200/80CBC4/000000?Text=NextEra+Wind+Technician",
-            "location": "Various Locations in the US",
-            "salary": "$45,000 - $70,000",
-            "jobType": "Full-time",
-            "description": "Perform maintenance, troubleshooting, and repairs on wind turbines.",
-            "requirements": ["Technical education or vocational training in a related field", "Experience in wind turbine maintenance or heavy equipment repair", "Strong mechanical and electrical aptitude", "Ability to work at heights"]
-          }
-        ]
-      },
-      {
-        "id": "15",
         "name": "Qualcomm",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Qualcomm_logo.svg/800px-Qualcomm_logo.svg.png",
+        "logo": "https://i.postimg.cc/Jhy7YRZQ/Qualcomm-Logo.png",
         "location": "San Diego, CA, USA",
         "website": "https://www.qualcomm.com/",
         "industry": "SoftwareDevelopment",
@@ -640,9 +470,9 @@
         ]
       },
       {
-        "id": "16",
+        "id": "12",
         "name": "BMW",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f4/BMW_logo_%28gray%29.svg",
+        "logo": "https://i.postimg.cc/C1h0TYft/bmw-logo-671.png",
         "location": "Munich, Germany",
         "website": "https://www.bmwgroup.com/",
         "industry": "Manufacturing",

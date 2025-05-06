@@ -10,7 +10,6 @@ const CompanyCard = ({ data }) => {
                 <img className='w-[50%]' src={data.logo} alt="" />
                 <div className='text-center'>
                     <h3 className='font-semibold'>{data.name}</h3>
-
                     <p>{data.jobs.length} jobs available</p>
                     <p className='text-slate-400'><small>click to view details</small></p>
                 </div>

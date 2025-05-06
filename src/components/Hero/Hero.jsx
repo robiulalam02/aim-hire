@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from 'react';
 
 const Hero = () => {
@@ -9,7 +10,17 @@ const Hero = () => {
                     <p>Discover Local and Remote Jobs Tailored to Your Aspirations. Your Gateway to Diverse Career Opportunities Across the Nation.</p>
                 </div>
                 <div className='w-6/12 flex justify-center'>
-                    <img className='w-[520px]' src="/src/assets/job-search-2.png" alt="" />
+                    <motion.img
+                        className="w-[520px]"
+                        src="/src/assets/job-search-2.png"
+                        alt="Hero Image"
+                        animate={{ y: [0, -20, 0] }}
+                        transition={{
+                            duration: 4,
+                            repeat: Infinity,
+                            repeatType: "loop",
+                            ease: "easeInOut",
+                        }} />
                 </div>
             </div>
         </div>

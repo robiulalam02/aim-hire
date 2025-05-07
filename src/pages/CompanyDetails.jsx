@@ -13,7 +13,7 @@ const CompanyDetails = () => {
     }, [data, id]);
 
     return (
-        <div className='max-w-screen-xl mx-auto h-screen my-20 bg-primary p-5 rounded-2xl'>
+        <div className='max-w-screen-xl mx-auto my-20 p-5 rounded-2xl'>
             {
                 company &&
                 <Details company={company}></Details>

@@ -7,6 +7,7 @@ import CompanyDetails from "../pages/CompanyDetails";
 import Login from "../components/Login/Login";
 import Register from "../components/Register/Register";
 import Profile from "../components/Profile/Profile";
+import Update_Profile from "../components/Profile/Update_Profile";
 
 export const router = createBrowserRouter([
     {
@@ -33,6 +34,10 @@ export const router = createBrowserRouter([
             {
                 path: '/my-profile',
                 Component: Profile
+            },
+            {
+                path: '/update-profile',
+                Component: Update_Profile
             }
         ]
     },

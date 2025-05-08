@@ -3,7 +3,7 @@ import { ProviderContext } from '../../providers/ProviderContext';
 import { useNavigate } from 'react-router';
 
 const Update_Profile = () => {
-    const { updateUser } = use(ProviderContext);
+    const { updateUser, updateUserName, updateUserImage } = use(ProviderContext);
     const navigate = useNavigate();
 
     const handleUpdateUser = (e) => {
@@ -12,10 +12,26 @@ const Update_Profile = () => {
         const name = e.target.name.value;
         const image = e.target.image.value;
 
-        updateUser(name, image)
+        if (image === '') {
+            updateUserName(name)
+                .then(() => {
+                    navigate('/my-profile')
+                })
+        }
+
+        if (name === '') {
+            updateUserImage(image)
+                .then(() => {
+                    navigate('/my-profile')
+                })
+        }
+
+        if (name && image) {
+            updateUser(name, image)
             .then(() => {
                 navigate('/my-profile')
             })
+        }
     }
     return (
         <div className='h-screen max-w-screen-2xl mx-auto flex justify-center items-center'>

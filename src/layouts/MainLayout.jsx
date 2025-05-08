@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { use } from 'react';
 import Navbar from '../components/Navbar/Navbar';
-import Hero from '../components/Hero/Hero';
 import { Outlet } from 'react-router';
 import Footer from '../components/Footer/Footer';
-import HomeLayout from '../pages/HomeLayout';
+import { ProviderContext } from '../providers/ProviderContext';
+import Loading from '../components/Loading/Loading';
 
 const MainLayout = () => {
+    const {loading} = use(ProviderContext);
+
+    if (loading) {
+        return <Loading />
+    }
+
     return (
         <div>
             <header>

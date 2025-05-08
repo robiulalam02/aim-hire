@@ -13,7 +13,9 @@ const Profile = () => {
                 profile &&
                 <div className='flex flex-col items-center gap-2'>
                     <div className='w-28 h-28 overflow-hidden rounded-full'>
-                        <img className='h-full w-full object-cover' src={profile.photoURL} alt="" />
+                        {
+                            profile.photoURL === null ? <img className='h-full w-full object-cover' src="/src/assets/default-logo.jpg" alt="" /> : <img className='h-full w-full object-cover' src={profile.photoURL} alt="" />
+                        }
                     </div>
                     <h3 className='flex items-center gap-2'><FaRegUser /> {profile.displayName}</h3>
                     <p className='flex items-center gap-2'><FiMail /> {profile.email}</p>

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "category": "Resume Tips",
+      "date": "2025-05-01",
+      "heading": "How to Write a Resume That Gets You Hired",
+      "description": "Your resume is your first impression. Learn how to craft a resume that stands out to employers, highlights your skills and experiences effectively, and avoids common formatting or content mistakes that could cost you an interview."
+    },
+    {
+      "id": 2,
+      "category": "Interview",
+      "date": "2025-04-28",
+      "heading": "Top 7 Interview Questions and How to Answer Them",
+      "description": "Be prepared for your next job interview by mastering the most frequently asked questions. From 'Tell me about yourself' to 'What are your strengths and weaknesses?', we break down what employers are really looking for and how to respond confidently."
+    },
+    {
+      "id": 3,
+      "category": "Career Advice",
+      "date": "2025-04-22",
+      "heading": "Choosing the Right Career Path After Graduation",
+      "description": "Graduating soon or recently finished your studies? Explore practical strategies to identify your ideal career path based on your passions, skills, and job market trends. Make informed choices that lead to long-term satisfaction and growth."
+    },
+    {
+      "id": 4,
+      "category": "Work Trends",
+      "date": "2025-04-15",
+      "heading": "Remote vs. On-Site Jobs: Which Is Better?",
+      "description": "With remote work becoming more common, many job seekers are unsure which environment suits them best. This article compares the flexibility, productivity, communication styles, and career growth opportunities of remote and on-site roles."
+    },
+    {
+      "id": 5,
+      "category": "Job Skills",
+      "date": "2025-04-10",
+      "heading": "10 Skills Employers Want in 2025",
+      "description": "The job market is evolving rapidly. Discover the top 10 skills that employers across industries are prioritizing this year—from digital communication and data literacy to emotional intelligence and problem-solving—and how you can develop them."
+    }
+  ]
+  

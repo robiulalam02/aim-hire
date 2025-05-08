@@ -1,11 +1,12 @@
 import React, { use } from 'react';
 import { ProviderContext } from '../../providers/ProviderContext';
-import { useNavigate } from 'react-router';
+import { Link, useLocation, useNavigate } from 'react-router';
 
 const Register = () => {
 
     const { registerUser, updateUser, googleSignIn } = use(ProviderContext);
-    const navigate = useNavigate()
+    const navigate = useNavigate();
+    const location = useLocation();
 
     const handleRegister = (e) => {
         e.preventDefault();
@@ -19,7 +20,7 @@ const Register = () => {
             .then(result => {
                 console.log(result);
                 updateUser(name, image);
-                navigate('/')
+                navigate(`${location.state ? location.state : '/'}`)
             })
     }
 
@@ -27,7 +28,7 @@ const Register = () => {
         googleSignIn()
         .then(result=>{
             console.log(result);
-            navigate('/')
+            navigate(`${location.state ? location.state : '/'}`)
         })
     }
 
@@ -46,7 +47,7 @@ const Register = () => {
                             <label class="block mb-2 text-sm text-slate-600">
                                 Your Name
                             </label>
-                            <input type="text" name='name' class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Your Name" />
+                            <input type="text" name='name' required class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Your Name" />
                         </div>
                         <div class="w-full max-w-sm min-w-[200px]">
                             <label class="block mb-2 text-sm text-slate-600">
@@ -106,9 +107,9 @@ const Register = () => {
 
                     <p class="flex justify-center mt-6 text-sm text-slate-600">
                         Don&apos;t have an account?
-                        <a href="#signup" class="ml-1 text-sm font-semibold text-slate-700 underline">
-                            login
-                        </a>
+                        <Link to="/auth/login" class="ml-1 text-sm font-semibold text-slate-700 underline">
+                            Login
+                        </Link>
                     </p>
                 </form>
             </div>

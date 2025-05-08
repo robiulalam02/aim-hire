@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const CompanyCard = ({ data }) => {
-    console.log(data);
+    
     return (
 
         <Link to={`/company-details/${data.id}`} className='flex'>

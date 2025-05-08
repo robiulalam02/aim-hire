@@ -8,17 +8,14 @@ const Navbar = () => {
     const navigate = useNavigate();
     const { profile, signOutUser } = use(ProviderContext);
 
-    console.log(profile);
-    // console.log(profile.photoURL);
-
     const links = <>
         <NavLink to="/">Home</NavLink>
         {
             profile &&
             <NavLink to="/my-profile">Profile</NavLink>
         }
-        <NavLink to="/blog">Blog</NavLink>
-        <NavLink to="/about-us">Contact us</NavLink>
+        <NavLink to="/blogs">Blogs</NavLink>
+        <NavLink to="/contact-us">Contact us</NavLink>
     </>
     return (
         <nav className=" backdrop-blur-3xl h-24 fixed w-full top-0 z-50">
@@ -47,9 +44,14 @@ const Navbar = () => {
                         profile ?
                             <div className='flex items-center gap-6'>
 
-                                <button onClick={()=> navigate('/my-profile')} className='w-12 h-12 rounded-full overflow-hidden'>
-                                    <img className='h-full w-full object-cover' src={profile.photoURL} alt="" />
-                                </button>
+                                {
+                                    profile.photoURL === null ? <button onClick={() => navigate('/my-profile')} className='w-12 h-12 rounded-full overflow-hidden'>
+                                        <img className='h-full w-full object-cover' src="/src/assets/default-logo.jpg" alt="" />
+                                    </button> :
+                                        <button onClick={() => navigate('/my-profile')} className='w-12 h-12 rounded-full overflow-hidden'>
+                                            <img className='h-full w-full object-cover' src={profile.photoURL} alt="" />
+                                        </button>
+                                }
 
                                 <button onClick={signOutUser} className='text-secondary border font-medium border-secondary gap-1 flex items-center px-4 py-2 rounded-md'>Logout <IoLogOutOutline size={20} /></button>
                             </div> :

@@ -4,6 +4,7 @@ import All_Companies from '../components/Company/All_Companies';
 import Hero from '../components/Hero/Hero';
 import FAQ from '../components/FAQ/FAQ';
 import Testimonial from '../components/Testimonial/Testimonial';
+import Blogs from '../components/Blogs/Blogs';
 // import { useLoaderData } from 'react-router';
 
 const HomeLayout = () => {

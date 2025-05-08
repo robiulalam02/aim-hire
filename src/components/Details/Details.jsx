@@ -7,12 +7,12 @@ const Details = ({ company }) => {
     const [showModal, setShowModal] = useState();
     return (
 
-        <div>
+        <div className='mt-20'>
 
             {showModal && selectedJob &&
                 <div className="fixed inset-0 backdrop-blur-xs flex justify-center items-center z-50">
                     <div className="bg-white p-6 rounded-lg w-full max-w-xl">
-                        <div className='flex justify-between'>
+                        <div className='flex justify-between gap-8'>
                             <h2 className="text-xl font-bold mb-2">{selectedJob.title} <small className='font-normal'>{selectedJob.jobType}</small></h2>
                             <div className='w-28 overflow-hidden'>
                                 <img className='w-full object-cover' src={company.logo} alt="" />

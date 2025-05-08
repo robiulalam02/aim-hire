@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className="px-4 divide-y bg-[#1e1980] text-white">
-            <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
+            <div className="container max-w-screen-2xl mx-auto flex flex-col justify-between py-10 space-y-8 lg:flex-row lg:space-y-0">
                 <div className="lg:w-1/3">
                     <a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
                         <img className='w-42' src="/src/assets/logo-2.png" alt="" />

@@ -4,6 +4,9 @@ import How_it_works from "../components/How_it_works/How_it_works";
 import All_Companies from "../components/Company/All_Companies";
 import HomeLayout from "../pages/HomeLayout";
 import CompanyDetails from "../pages/CompanyDetails";
+import Login from "../components/Login/Login";
+import Register from "../components/Register/Register";
+import Profile from "../components/Profile/Profile";
 
 export const router = createBrowserRouter([
     {
@@ -18,6 +21,18 @@ export const router = createBrowserRouter([
                 path: '/company-details/:id',
                 Component: CompanyDetails,
                 loader: () => fetch('/main-company.json')
+            },
+            {
+                path: '/auth/login',
+                Component: Login
+            },
+            {
+                path: '/auth/register',
+                Component: Register
+            },
+            {
+                path: '/my-profile',
+                Component: Profile
             }
         ]
     },

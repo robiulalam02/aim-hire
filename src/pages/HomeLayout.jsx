@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import How_it_works from '../components/How_it_works/How_it_works';
 import All_Companies from '../components/Company/All_Companies';
 import Hero from '../components/Hero/Hero';
+import FAQ from '../components/FAQ/FAQ';
+import Testimonial from '../components/Testimonial/Testimonial';
 // import { useLoaderData } from 'react-router';
 
 const HomeLayout = () => {
@@ -20,6 +22,12 @@ const HomeLayout = () => {
             </section>
             <section>
                 <All_Companies companyData={companyData}></All_Companies>
+            </section>
+            <section>
+                <FAQ></FAQ>
+            </section>
+            <section>
+                <Testimonial></Testimonial>
             </section>
         </div>
     );

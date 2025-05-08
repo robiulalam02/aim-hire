@@ -13,10 +13,12 @@ const Navbar = () => {
 
     const links = <>
         <NavLink to="/">Home</NavLink>
-        <NavLink to="/companies">Companies</NavLink>
-        <NavLink to="/jobs">Jobs</NavLink>
+        {
+            profile &&
+            <NavLink to="/my-profile">Profile</NavLink>
+        }
         <NavLink to="/blog">Blog</NavLink>
-        <NavLink to="/about-us">About us</NavLink>
+        <NavLink to="/about-us">Contact us</NavLink>
     </>
     return (
         <nav className=" backdrop-blur-3xl h-24 fixed w-full top-0 z-50">

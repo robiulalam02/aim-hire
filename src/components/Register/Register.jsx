@@ -58,13 +58,17 @@ const Register = () => {
                             <label class="block mb-2 text-sm text-slate-600">
                                 Email
                             </label>
-                            <input type="email" name='email' class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Your Email" />
+                            <input required type="email" name='email' class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Your Email" />
                         </div>
                         <div class="w-full max-w-sm min-w-[200px]">
                             <label class="block mb-2 text-sm text-slate-600">
                                 Password
                             </label>
-                            <input type="password" name='password' class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Your Password" />
+                            <input
+                            required 
+                            pattern="^(?=.*[a-z])(?=.*[A-Z]).{6,}$" 
+                            title="Password must contain at least one uppercase letter, one lowercase letter, and be at least 6 characters long." 
+                            type="password" name='password' class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Your Password" />
                         </div>
                     </div>
                     <div class="inline-flex items-center mt-2">

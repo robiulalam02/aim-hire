@@ -17,7 +17,7 @@ const Profile = () => {
                     </div>
                     <h3 className='flex items-center gap-2'><FaRegUser /> {profile.displayName}</h3>
                     <p className='flex items-center gap-2'><FiMail /> {profile.email}</p>
-                    <button onClick={() => navigate('/update-profile')} className='border border-red-400 px-4 py-2 rounded-xl text-red-700 font-medium'>update profile</button>
+                    <button onClick={() => navigate('/update-profile')} className='border border-rose-400 px-4 py-2 rounded-xl text-rose-600 font-medium'>update profile</button>
                 </div>
             }
         </div>

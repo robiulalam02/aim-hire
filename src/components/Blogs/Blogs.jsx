@@ -4,7 +4,6 @@ import Post from './Post';
 
 const Blogs = () => {
     const data = useLoaderData();
-    console.log(data);
     return (
         <section class="text-gray-600 body-font overflow-hidden mb-20 mt-20 md:mt-40">
             <div class="container px-5 py-24 mx-auto">

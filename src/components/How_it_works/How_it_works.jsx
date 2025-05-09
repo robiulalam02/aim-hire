@@ -1,4 +1,8 @@
 import React from 'react';
+import getStarted from '../../assets/get-started.png';
+import jobSearch from '../../assets/job-search-2.png';
+import applyJob from '../../assets/Account-rafiki.png';
+import hiredImg from '../../assets/hired.png';
 
 const How_it_works = () => {
     return (
@@ -8,7 +12,7 @@ const How_it_works = () => {
 
                 <div className='flex flex-col gap-2 shadow-sm w-full p-4 rounded-md relative'>
                     <div className='flex justify-center'>
-                        <img className='w-48' src="/src/assets/get-started.png" alt="" />
+                        <img className='w-48' src={getStarted} alt="" />
                     </div>
                     <div>
                         <h3 className='text-xl font-medium mb-2'>Get Started</h3>
@@ -21,7 +25,7 @@ const How_it_works = () => {
 
                 <div className='flex flex-col gap-2 shadow-sm w-full p-4 rounded-md relative'>
                     <div className='flex justify-center'>
-                        <img className='w-48' src="/src/assets/job-search-2.png" alt="" />
+                        <img className='w-48' src={jobSearch} alt="" />
                     </div>
                     <div>
                         <h3 className='text-xl font-medium mb-2'>Search Jobs</h3>
@@ -34,7 +38,7 @@ const How_it_works = () => {
 
                 <div className='flex flex-col gap-2 shadow-sm w-full p-4 rounded-md relative'>
                     <div className='flex justify-center'>
-                        <img className='w-48' src="/src/assets/Account-rafiki.png" alt="" />
+                        <img className='w-48' src={applyJob} alt="" />
                     </div>
                     <div>
                         <h3 className='text-xl font-medium mb-2'>Apply Easily</h3>
@@ -47,7 +51,7 @@ const How_it_works = () => {
 
                 <div className='flex flex-col gap-2 shadow-sm w-full p-4 rounded-md relative'>
                     <div className='flex justify-center'>
-                        <img className='w-48' src="/src/assets/hired.png" alt="" />
+                        <img className='w-48' src={hiredImg} alt="" />
                     </div>
                     <div>
                         <h3 className='text-xl font-medium mb-2'>Get Hired</h3>

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from 'react';
+import heroImg from '../../assets/job-search-2.png';
 
 const Hero = () => {
     return (
@@ -12,7 +13,7 @@ const Hero = () => {
                 <div className='md:w-6/12 w-full flex justify-center'>
                     <motion.img
                         className="w-[520px] z-0"
-                        src="/src/assets/job-search-2.png"
+                        src={heroImg}
                         alt="Hero Image"
                         animate={{ y: [0, -20, 0] }}
                         transition={{

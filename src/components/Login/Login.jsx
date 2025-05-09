@@ -17,8 +17,7 @@ const Login = () => {
         setErrorMsg('');
 
         signInUser(email, password)
-            .then(result => {
-                console.log(result);
+            .then(() => {
                 navigate(`${location.state ? location.state : '/'}`)
             })
             .catch(()=>{
@@ -28,8 +27,7 @@ const Login = () => {
 
     const handleGoogleSignIn = () => {
         googleSignIn()
-        .then(result=>{
-            console.log(result);
+        .then(()=>{
             navigate(`${location.state ? location.state : '/'}`)
         })
     }

@@ -1,15 +1,13 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-
 import './style.css'
-
-// import required modules
 import { Pagination } from 'swiper/modules';
+import testimonial1 from '../../assets/testimonial-1.jpg';
+import testimonial2 from '../../assets/testimonial-2.jpg';
+import testimonial3 from '../../assets/testimonial-3.jpg';
+import testimonial4 from '../../assets/testimonial-4.jpg';
 
 const Testimonial = () => {
     return (
@@ -34,7 +32,7 @@ const Testimonial = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center w-full p-6 justify-between lg:h-full lg:p-8 bg-primary text-gray-800">
                         <div className='w-16 h-16 bg-gray-500 rounded-full overflow-hidden'>
-                            <img src="/src/assets/testimonial-1.jpg" alt="" className="w-full h-full object-cover" />
+                            <img src={testimonial1} alt="" className="w-full h-full object-cover" />
                         </div>
                         <p className="relative py-1 text-lg italic text-center text-gray-800">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-secondary">
@@ -55,7 +53,7 @@ const Testimonial = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center w-full p-6 justify-between lg:h-full lg:p-8 bg-primary text-gray-800">
                         <div className='w-16 h-16 bg-gray-500 rounded-full overflow-hidden'>
-                            <img src="/src/assets/testimonial-2.jpg" alt="" className="w-full h-full object-cover" />
+                            <img src={testimonial2} alt="" className="w-full h-full object-cover" />
                         </div>
                         <p className="relative py-1 text-lg italic text-center text-gray-800">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-secondary">
@@ -76,7 +74,7 @@ const Testimonial = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center w-full p-6 justify-between lg:h-full lg:p-8 bg-primary text-gray-800">
                         <div className='w-16 h-16 bg-gray-500 rounded-full overflow-hidden'>
-                            <img src="/src/assets/testimonial-3.jpg" alt="" className="w-full h-full object-cover" />
+                            <img src={testimonial3} alt="" className="w-full h-full object-cover" />
                         </div>
                         <p className="relative py-1 text-lg italic text-center text-gray-800">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-secondary">
@@ -97,7 +95,7 @@ const Testimonial = () => {
                 <SwiperSlide>
                     <div className="flex flex-col items-center w-full p-6 justify-between lg:h-full lg:p-8 bg-primary text-gray-800">
                         <div className='w-16 h-16 bg-gray-500 rounded-full overflow-hidden'>
-                            <img src="/src/assets/testimonial-4.jpg" alt="" className="w-full h-full object-cover" />
+                            <img src={testimonial4} alt="" className="w-full h-full object-cover" />
                         </div>
                         <p className="relative py-1 text-lg italic text-center text-gray-800">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-secondary">

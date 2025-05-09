@@ -3,7 +3,6 @@ import Modal from '../Modal/Modal';
 
 const Jobs = ({ job, setShowModal, setSelectedJob}) => {
 
-    console.log(job);
 
     return (
         <div>

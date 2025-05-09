@@ -2,6 +2,7 @@ import React, { use } from 'react';
 import { NavLink, useNavigate } from 'react-router';
 import { ProviderContext } from '../../providers/ProviderContext';
 import { IoLogOutOutline } from 'react-icons/io5';
+import logo from '../../assets/logo-1.png';
 
 const Navbar = () => {
 
@@ -21,7 +22,7 @@ const Navbar = () => {
                 <div>
                     <button onClick={signOutUser} className='text-secondary border font-medium border-secondary gap-1 flex md:hidden items-center px-4 py-2 rounded-md'>Logout <IoLogOutOutline size={20} /></button>
                 </div> :
-                <div className='flex gap-5'>
+                <div className='flex gap-5 md:hidden'>
                     <button onClick={() => navigate('/auth/login')} className='text-secondary border font-medium border-secondary px-4 py-2 rounded-md'>Login</button>
                     <button onClick={() => navigate('/auth/register')} className='bg-secondary text-white px-4 py-2 rounded-md'>Register</button>
                 </div>
@@ -41,7 +42,7 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <img width={140} src="/src/assets/logo-1.png" alt="" />
+                    <img width={140} src={logo} alt="" />
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-10 text-lg">

@@ -1,4 +1,5 @@
 import React from 'react';
+import footerLogo from '../../assets/logo-2.png';
 
 const Footer = () => {
     return (
@@ -6,7 +7,7 @@ const Footer = () => {
             <div className="container max-w-screen-2xl mx-auto flex flex-col justify-between py-10 space-y-8 lg:flex-row lg:space-y-0">
                 <div className="lg:w-1/3">
                     <a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 lg:justify-start">
-                        <img className='w-42' src="/src/assets/logo-2.png" alt="" />
+                        <img className='w-42' src={footerLogo} alt="" />
                     </a>
                 </div>
                 <div className="grid grid-cols-2 text-sm gap-x-3 gap-y-8 lg:w-2/3 sm:grid-cols-4">

@@ -17,8 +17,7 @@ const Register = () => {
         const password = e.target.password.value;
 
         registerUser(email, password)
-            .then(result => {
-                console.log(result);
+            .then(() => {
                 updateUser(name, image);
                 navigate(`${location.state ? location.state : '/'}`)
             })
@@ -26,8 +25,7 @@ const Register = () => {
 
     const handleGoogleSignIn = () => {
         googleSignIn()
-        .then(result=>{
-            console.log(result);
+        .then(()=>{
             navigate(`${location.state ? location.state : '/'}`)
         })
     }

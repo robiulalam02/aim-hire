@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import Details from '../components/Details/Details';
 import ReactModal from 'react-modal';
+import { Helmet } from 'react-helmet-async';
 
 const CompanyDetails = () => {
     const data = useLoaderData();

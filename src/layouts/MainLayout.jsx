@@ -4,6 +4,7 @@ import { Outlet, useLocation } from 'react-router';
 import Footer from '../components/Footer/Footer';
 import Loading from '../components/Loading/Loading';
 import { ToastContainer } from 'react-toastify';
+import { Helmet } from 'react-helmet-async';
 
 const MainLayout = () => {
     const location = useLocation();
@@ -17,6 +18,9 @@ const MainLayout = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Home</title>
+            </Helmet>
             {loading && <Loading />}
             <ToastContainer />
             <header>

@@ -5,16 +5,20 @@ import Hero from '../components/Hero/Hero';
 import FAQ from '../components/FAQ/FAQ';
 import Testimonial from '../components/Testimonial/Testimonial';
 import Blogs from '../components/Blogs/Blogs';
+import { Helmet } from 'react-helmet-async';
 // import { useLoaderData } from 'react-router';
 
 const HomeLayout = () => {
     // const companyData = useLoaderData();
     const [companyData, setCompanyData] = useState();
-    useEffect(()=>{
-        fetch('main-company.json').then(res=>res.json()).then(data=> setCompanyData(data));
+    useEffect(() => {
+        fetch('main-company.json').then(res => res.json()).then(data => setCompanyData(data));
     }, [])
     return (
         <div>
+            <Helmet>
+                <title>Home</title>
+            </Helmet>
             <section className='bg-[url(/src/assets/shiny-overlay.svg)] bg-cover bg-center'>
                 <Hero></Hero>
             </section>

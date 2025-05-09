@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router';
 import Jobs from '../Jobs/Jobs';
+import { Helmet } from 'react-helmet-async';
 
 const Details = ({ company }) => {
     const [selectedJob, setSelectedJob] = useState(null);
@@ -8,7 +9,9 @@ const Details = ({ company }) => {
     return (
 
         <div className='mt-20'>
-
+            <Helmet>
+                <title>{company && `companies | ${company.name}`}</title>
+            </Helmet>
             {showModal && selectedJob &&
                 <div className="fixed inset-0 backdrop-blur-xs flex justify-center items-center z-50">
                     <div className="bg-white p-6 rounded-lg w-full max-w-xl">

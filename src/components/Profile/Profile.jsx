@@ -3,12 +3,16 @@ import { ProviderContext } from '../../providers/ProviderContext';
 import { FaRegUser } from 'react-icons/fa';
 import { FiMail } from 'react-icons/fi';
 import { useNavigate } from 'react-router';
+import { Helmet } from 'react-helmet-async';
 
 const Profile = () => {
     const { profile } = use(ProviderContext);
     const navigate = useNavigate();
     return (
         <div className='h-screen max-w-screen-2xl mx-auto flex justify-center items-center'>
+            <Helmet>
+                <title>Profile</title>
+            </Helmet>
             {
                 profile &&
                 <div className='flex flex-col items-center gap-2'>

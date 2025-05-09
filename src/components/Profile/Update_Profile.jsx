@@ -2,6 +2,7 @@ import React, { use } from 'react';
 import { ProviderContext } from '../../providers/ProviderContext';
 import { useNavigate } from 'react-router';
 import { toast } from 'react-toastify';
+import { Helmet } from 'react-helmet-async';
 
 const Update_Profile = () => {
     const { updateUser, updateUserName, updateUserImage } = use(ProviderContext);
@@ -31,14 +32,17 @@ const Update_Profile = () => {
 
         if (name && image) {
             updateUser(name, image)
-            .then(() => {
-                toast("profile updated successfully")
-                navigate('/my-profile')
-            })
+                .then(() => {
+                    toast("profile updated successfully")
+                    navigate('/my-profile')
+                })
         }
     }
     return (
         <div className='h-screen max-w-screen-2xl mx-auto flex justify-center items-center'>
+            <Helmet>
+                <title>Update Profile</title>
+            </Helmet>
             <form onSubmit={handleUpdateUser} class="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96 shadow-sm p-5 bg-primary rounded-2xl">
                 <h3 className='text-2xl font-semibold mb-5 text-center'>update user profile</h3>
                 <div class="mb-1 flex flex-col gap-6">

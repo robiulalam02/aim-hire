@@ -3,6 +3,7 @@ import { ProviderContext } from '../../providers/ProviderContext';
 import { Link, useLocation, useNavigate } from 'react-router';
 import swal from 'sweetalert';
 import { toast } from 'react-toastify';
+import { Helmet } from 'react-helmet-async';
 
 const Register = () => {
 
@@ -28,7 +29,7 @@ const Register = () => {
                 });
                 navigate(`${location.state ? location.state : '/'}`)
             })
-            .catch(()=>{
+            .catch(() => {
                 toast.error('user registration failed or email already in use')
             })
     }
@@ -47,6 +48,9 @@ const Register = () => {
 
     return (
         <div className='flex justify-center max-w-screen-2xl my-40 mx-auto items-center'>
+            <Helmet>
+                <title>Register</title>
+            </Helmet>
             <div class="relative flex flex-col rounded-xl shadow-sm p-5">
                 <h4 class="block text-xl font-medium text-slate-800">
                     Register user

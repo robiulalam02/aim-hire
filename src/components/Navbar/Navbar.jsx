@@ -20,7 +20,7 @@ const Navbar = () => {
         {
             profile ?
                 <div>
-                    <button onClick={signOutUser} className='text-secondary border font-medium border-secondary gap-1 flex md:hidden items-center px-4 py-2 rounded-md'>Logout <IoLogOutOutline size={20} /></button>
+                    <button onClick={()=>{signOutUser; navigate('/')}} className='text-secondary border font-medium border-secondary gap-1 flex md:hidden items-center px-4 py-2 rounded-md'>Logout <IoLogOutOutline size={20} /></button>
                 </div> :
                 <div className='flex gap-5 md:hidden'>
                     <button onClick={() => navigate('/auth/login')} className='text-secondary border font-medium border-secondary px-4 py-2 rounded-md'>Login</button>
@@ -64,7 +64,7 @@ const Navbar = () => {
                                         </button>
                                 }
 
-                                <button onClick={signOutUser} className='text-secondary border font-medium border-secondary gap-1 hidden md:flex items-center px-4 py-2 rounded-md'>Logout <IoLogOutOutline size={20} /></button>
+                                <button onClick={()=>{signOutUser(); navigate('/')}} className='text-secondary border font-medium border-secondary gap-1 hidden md:flex items-center px-4 py-2 rounded-md'>Logout <IoLogOutOutline size={20} /></button>
                             </div> :
                             <div className='hidden md:flex gap-5'>
                                 <button onClick={() => navigate('/auth/login')} className='text-secondary border font-medium border-secondary px-4 py-2 rounded-md'>Login</button>

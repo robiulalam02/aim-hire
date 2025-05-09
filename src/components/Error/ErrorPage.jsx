@@ -2,10 +2,14 @@ import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import { NavLink } from 'react-router';
 import { PiHouseLineBold } from 'react-icons/pi';
+import { Helmet } from 'react-helmet-async';
 
 const ErrorPage = () => {
     return (
         <div>
+            <Helmet>
+                <title>404 - page not found</title>
+            </Helmet>
             <header className='mb-24'>
                 <Navbar></Navbar>
             </header>

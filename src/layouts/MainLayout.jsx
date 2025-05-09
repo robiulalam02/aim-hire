@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar/Navbar';
 import { Outlet, useLocation } from 'react-router';
 import Footer from '../components/Footer/Footer';
 import Loading from '../components/Loading/Loading';
+import { ToastContainer } from 'react-toastify';
 
 const MainLayout = () => {
     const location = useLocation();
@@ -17,7 +18,7 @@ const MainLayout = () => {
     return (
         <div>
             {loading && <Loading />}
-
+            <ToastContainer />
             <header>
                 <Navbar />
             </header>

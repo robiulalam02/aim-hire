@@ -1,6 +1,7 @@
 import React, { use } from 'react';
 import { ProviderContext } from '../../providers/ProviderContext';
 import { useNavigate } from 'react-router';
+import { toast } from 'react-toastify';
 
 const Update_Profile = () => {
     const { updateUser, updateUserName, updateUserImage } = use(ProviderContext);
@@ -15,6 +16,7 @@ const Update_Profile = () => {
         if (image === '') {
             updateUserName(name)
                 .then(() => {
+                    toast("profile updated successfully")
                     navigate('/my-profile')
                 })
         }
@@ -22,6 +24,7 @@ const Update_Profile = () => {
         if (name === '') {
             updateUserImage(image)
                 .then(() => {
+                    toast("profile updated successfully")
                     navigate('/my-profile')
                 })
         }
@@ -29,6 +32,7 @@ const Update_Profile = () => {
         if (name && image) {
             updateUser(name, image)
             .then(() => {
+                toast("profile updated successfully")
                 navigate('/my-profile')
             })
         }

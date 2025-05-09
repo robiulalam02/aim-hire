@@ -46,6 +46,7 @@ The purpose of **AimHire** is to provide job seekers with a focused, modern, and
 - Framer Motion
 - Swiper JS
 - Sweet Alert
+- React Toastify
 
 ### 🎨 UI Libraries
 
@@ -63,6 +64,7 @@ The purpose of **AimHire** is to provide job seekers with a focused, modern, and
 - framer motion
 - swiper JS
 - sweet alert
+- react toastify
 
 
 ## 🛠️ Folder Structure
@@ -84,7 +86,9 @@ Supports SPA (Single Page Application) — no route errors on reload
 
 ✅ Dynamic title changes with React Helmet
 
-✅ Framer Motion animations for smooth UI
+✅ Sweet Alert for Pop Up message in successful login or register
+
+✅ React Toast Notification for error message
 
 
 ## 🧑‍💻 Author

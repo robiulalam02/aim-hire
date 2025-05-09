@@ -2,6 +2,7 @@ import React, { use } from 'react';
 import { ProviderContext } from '../../providers/ProviderContext';
 import { Link, useLocation, useNavigate } from 'react-router';
 import swal from 'sweetalert';
+import { toast } from 'react-toastify';
 
 const Register = () => {
 
@@ -26,6 +27,9 @@ const Register = () => {
                     icon: "success",
                 });
                 navigate(`${location.state ? location.state : '/'}`)
+            })
+            .catch(()=>{
+                toast.error('user registration failed or email already in use')
             })
     }
 

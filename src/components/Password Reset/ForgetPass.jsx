@@ -1,21 +1,24 @@
 import React, { use } from 'react';
 import { ProviderContext } from '../../providers/ProviderContext';
+import { toast } from 'react-toastify';
 
 const ForgetPass = () => {
     const { resetEmail, forgetPassword } = use(ProviderContext);
 
 
     const handleForgetPass = (e) => {
-       e.preventDefault();
-
-       const email = e.target.email.value;
-
-       forgetPassword(email)
-       .then(()=>{
-        console.log("password reset mail has sent successfully");
-        window.location.href = 'https://mail.google.com/';
-       })
-    }
+        e.preventDefault();
+ 
+        const email = e.target.email.value;
+ 
+        forgetPassword(email)
+        .then(()=>{
+         toast("reset password mail has been sent to your email & redirect to gmail");
+         setTimeout(() => {
+            window.open("https://mail.google.com", "_blank"); // opens in new tab
+          }, 2000);
+        })
+     }
 
     return (
         <div className='h-screen max-w-screen-2xl mx-auto flex justify-center items-center'>

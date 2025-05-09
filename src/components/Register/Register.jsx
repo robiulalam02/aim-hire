@@ -1,6 +1,7 @@
 import React, { use } from 'react';
 import { ProviderContext } from '../../providers/ProviderContext';
 import { Link, useLocation, useNavigate } from 'react-router';
+import swal from 'sweetalert';
 
 const Register = () => {
 
@@ -19,15 +20,25 @@ const Register = () => {
         registerUser(email, password)
             .then(() => {
                 updateUser(name, image);
+                swal({
+                    title: "Good job!",
+                    text: "Registration Successful!",
+                    icon: "success",
+                });
                 navigate(`${location.state ? location.state : '/'}`)
             })
     }
 
     const handleGoogleSignIn = () => {
         googleSignIn()
-        .then(()=>{
-            navigate(`${location.state ? location.state : '/'}`)
-        })
+            .then(() => {
+                swal({
+                    title: "Good job!",
+                    text: "Registration Successful!",
+                    icon: "success",
+                });
+                navigate(`${location.state ? location.state : '/'}`)
+            })
     }
 
     return (
@@ -64,10 +75,10 @@ const Register = () => {
                                 Password
                             </label>
                             <input
-                            required 
-                            pattern="^(?=.*[a-z])(?=.*[A-Z]).{6,}$" 
-                            title="Password must contain at least one uppercase letter, one lowercase letter, and be at least 6 characters long." 
-                            type="password" name='password' class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Your Password" />
+                                required
+                                pattern="^(?=.*[a-z])(?=.*[A-Z]).{6,}$"
+                                title="Password must contain at least one uppercase letter, one lowercase letter, and be at least 6 characters long."
+                                type="password" name='password' class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Your Password" />
                         </div>
                     </div>
                     <div class="inline-flex items-center mt-2">

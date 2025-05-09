@@ -45,6 +45,7 @@ The purpose of **AimHire** is to provide job seekers with a focused, modern, and
 - React Spinners
 - Framer Motion
 - Swiper JS
+- Sweet Alert
 
 ### 🎨 UI Libraries
 
@@ -61,6 +62,7 @@ The purpose of **AimHire** is to provide job seekers with a focused, modern, and
 - react spinners
 - framer motion
 - swiper JS
+- sweet alert
 
 
 ## 🛠️ Folder Structure

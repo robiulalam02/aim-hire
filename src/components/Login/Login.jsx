@@ -1,6 +1,7 @@
 import React, { use, useState } from 'react';
 import { ProviderContext } from '../../providers/ProviderContext';
 import { Link, useLocation, useNavigate } from 'react-router';
+import swal from 'sweetalert';
 
 const Login = () => {
     const { signInUser, googleSignIn, setResetEmail, resetEmail } = use(ProviderContext);
@@ -18,18 +19,28 @@ const Login = () => {
 
         signInUser(email, password)
             .then(() => {
+                swal({
+                    title: "Welcome Back!",
+                    text: "User Login Successful!",
+                    icon: "success",
+                });
                 navigate(`${location.state ? location.state : '/'}`)
             })
-            .catch(()=>{
+            .catch(() => {
                 setErrorMsg('Invalid email or password')
             })
     };
 
     const handleGoogleSignIn = () => {
         googleSignIn()
-        .then(()=>{
-            navigate(`${location.state ? location.state : '/'}`)
-        })
+            .then(() => {
+                swal({
+                    title: "Good job!",
+                    text: "Login Successful!",
+                    icon: "success",
+                });
+                navigate(`${location.state ? location.state : '/'}`)
+            })
     }
 
     return (
@@ -44,17 +55,17 @@ const Login = () => {
                             <label class="block mb-2 text-sm text-slate-600">
                                 Email
                             </label>
-                            <input defaultValue={resetEmail} onChange={(e)=> setResetEmail(e.target.value)} type="email" name='email' class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Your Email" />
+                            <input defaultValue={resetEmail} onChange={(e) => setResetEmail(e.target.value)} type="email" name='email' class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Your Email" />
                         </div>
                         <div class="w-full max-w-sm min-w-[200px]">
                             <label class="block mb-2 text-sm text-slate-600">
                                 Password
                             </label>
-                            <input type="password" onChange={()=> setErrorMsg('')} name='password' class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Your Password" />
+                            <input type="password" onChange={() => setErrorMsg('')} name='password' class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow" placeholder="Your Password" />
                         </div>
                     </div>
                     <div class="inline-flex items-center mt-2">
-                        <button onClick={()=> navigate('/forget-password')} type='button' class="cursor-pointer text-slate-600 text-sm" >
+                        <button onClick={() => navigate('/forget-password')} type='button' class="cursor-pointer text-slate-600 text-sm" >
                             forget password?
                         </button>
                     </div>

@@ -1,91 +1,109 @@
-🎯 AimHire — Smart Job Search Platform
-🌐 Live URL: https://aim-hire-auth.web.app/
+# 🎯 AimHire — Smart Job Search Platform
 
-🔍 About the Project
-AimHire is an innovative and responsive single-page web application built to simplify job searching and career exploration. It offers a centralized hub for users to browse companies, explore job listings, and apply directly through company websites. The application combines real-time authentication, dynamic routing, and modern UI/UX to deliver a smooth and accessible experience for all job seekers.
+### 🌐 Live Site: [Your Live URL Here]  
+📂 GitHub Repo: [Your GitHub Repo Link Here]
 
-🎯 Purpose
-The purpose of AimHire is to create a focused, interactive job search experience where users can quickly access essential details about companies and job openings. It supports personal profile management, provides secure login options, and presents opportunities in a structured and mobile-friendly layout — making it an ideal platform for those seeking new employment or exploring career options.
+---
 
-📌 Key Features
-✅ User Authentication with Email/Password & Google (via Firebase)
+## 🔍 About AimHire
 
-✅ Private Routes for Company Details and My Profile
+**AimHire** is an innovative and responsive single-page web application built to simplify job searching and career exploration. It offers a centralized hub for users to browse companies, explore job listings, and apply directly through company websites. The application combines real-time authentication, dynamic routing, and modern UI/UX to deliver a smooth and accessible experience for all job seekers.
 
-✅ Responsive Design for mobile, tablet, and desktop
+---
 
-✅ Forget Password feature (Gmail redirect, no email verification)
+## 🎯 Purpose
 
-✅ Logout button visible upon login
+The purpose of **AimHire** is to provide job seekers with a focused, modern, and interactive platform for discovering opportunities. Users can explore job listings from multiple companies, check job details, and manage their profiles in a secure, mobile-friendly environment.
 
-✅ Dynamic Page Titles for better SEO and clarity
+---
 
-✅ Company and Job Listings loaded from structured JSON
+## 🚀 Key Features
 
-✅ Job Details Modal with "Apply" button (opens in new tab)
+- 🔐 Firebase Authentication (Email/Password & Google)
+- 🔒 Private Routes (Company Details & My Profile)
+- 📱 Fully Responsive (Mobile, Tablet & Desktop)
+- 💡 Forget Password with Gmail redirection (no email verification)
+- 🔓 Logout functionality with profile display on navbar
+- 🧭 Dynamic Page Titles
+- 🏢 Company and Job Listings from JSON data
+- 📄 Job Detail Modal with Apply (opens in new tab)
+- 👤 My Profile page with editable user details
+- 🚫 404 Not Found page
+- 🎨 Modern UI with Tailwind, DaisyUI & Mamba UI
+- 🎞️ Smooth animations using Framer Motion
 
-✅ My Profile Page with editable photo and name fields
+---
 
-✅ 404 Not Found page for unmatched routes
+## 🧰 Tech Stack
 
-✅ Modern UI Components from DaisyUI and Mamba UI
+### ⚛️ Frameworks & Libraries
 
-✅ Smooth animations with Framer Motion
+- React
+- React Router DOM
+- Firebase
+- React Icons
+- React Spinners
+- Framer Motion
+- Swiper JS
 
-🧰 Technologies & Libraries Used
-⚛️ Core Stack
-React
+### 🎨 UI Libraries
 
-Firebase Authentication
+- Tailwind CSS
+- DaisyUI
+- Mamba UI
 
-React Router DOM
+---
 
-🧩 Additional Libraries
-Framer Motion (animation)
+## 📦 Installed NPM Packages
 
-React Spinners (loading indicators)
+- react router dom
+- react icons
+- react spinners
+- framer motion
+- swiper JS
 
-React Icons
 
-SwiperJS (sliders and carousels)
-
-🎨 Styling & UI
-Tailwind CSS
-
-DaisyUI
-
-Mamba UI
-
-📦 NPM Packages Used
-npm install react-router-dom react-icons react-spinners framer-motion swiper
-
-🛡️ Environment & Deployment
-Firebase config keys stored securely in .env variables
-
-Hosted on platforms like Netlify or Firebase
-
-Firebase Authorized Domains configured for custom host
-
-Single Page App friendly: No route errors on reload
-
-📂 Folder Structure (Highlights)
-css
+## 🛠️ Folder Structure
+plaintext
 Copy
 Edit
 src/
-├── assets/
-├── components/
+├── assets/               # Logo, images
+├── components/           # Reusable components like Navbar, Footer, Modal
+├── context/              # Firebase Auth context provider
+├── hooks/                # Custom hooks (optional)
+├── layouts/              # Layouts like MainLayout, PrivateRoute
 ├── pages/
-│   ├── Home/
-│   ├── Auth/
-│   ├── Profile/
-│   ├── Company/
-│   └── NotFound/
-├── routes/
-├── context/
-├── App.jsx
-├── main.jsx
+│   ├── Auth/             # Login, Register, ForgetPassword
+│   ├── Company/          # CompanyDetails
+│   ├── Home/             # Home, Hero, Sections
+│   ├── Profile/          # MyProfile, UpdateProfile
+│   └── NotFound/         # 404 Page
+├── routes/               # All Route definitions
+├── App.jsx               # Root component
+├── main.jsx              # Entry point
+├── index.css             # Tailwind and global styles
 
-📞 Contact
+## 🌍 Deployment Notes
+Hosted on Netlify or Firebase
+Firebase authorized domains must include your Netlify/Firebase domain
+Supports SPA (Single Page Application) — no route errors on reload
+
+## 🧪 Extra Functionalities
+✅ Google Login
+
+✅ Update User Info (name and photo)
+
+✅ Modal-based job detail view
+
+✅ Additional routes and sections
+
+✅ Dynamic title changes with React Helmet
+
+✅ Framer Motion animations for smooth UI
+
+
+## 🧑‍💻 Author
 Created by: MD. Robiul Alam
-Project: AimHire – Explore & Apply for Jobs with Ease
+Project Name: AimHire
+For contact or collaboration, reach out at: [Your Email or Portfolio URL]

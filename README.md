@@ -64,25 +64,7 @@ The purpose of **AimHire** is to provide job seekers with a focused, modern, and
 
 
 ## 🛠️ Folder Structure
-plaintext
-Copy
-Edit
-src/
-├── assets/               # Logo, images
-├── components/           # Reusable components like Navbar, Footer, Modal
-├── context/              # Firebase Auth context provider
-├── hooks/                # Custom hooks (optional)
-├── layouts/              # Layouts like MainLayout, PrivateRoute
-├── pages/
-│   ├── Auth/             # Login, Register, ForgetPassword
-│   ├── Company/          # CompanyDetails
-│   ├── Home/             # Home, Hero, Sections
-│   ├── Profile/          # MyProfile, UpdateProfile
-│   └── NotFound/         # 404 Page
-├── routes/               # All Route definitions
-├── App.jsx               # Root component
-├── main.jsx              # Entry point
-├── index.css             # Tailwind and global styles
+<pre> src/ ├── assets/ → Static images like logos, banners ├── components/ → Reusable UI components (Navbar, Footer, Modal, etc.) ├── context/ → Firebase authentication context (AuthProvider) ├── layouts/ → Layouts like MainLayout, PrivateRoute ├── pages/ │ ├── Auth/ → Login, Register, ForgetPassword │ ├── Company/ → CompanyDetails page (Private Route) │ ├── Home/ → Home, Hero, HowItWorks, Companies sections │ ├── Profile/ → MyProfile, UpdateProfile (Private Routes) │ └── NotFound/ → 404 Not Found page ├── routes/ → All app routes defined using React Router ├── App.jsx → Main application wrapper ├── main.jsx → Entry point (ReactDOM render) ├── index.css → Global and Tailwind/DaisyUI styles </pre>
 
 ## 🌍 Deployment Notes
 Hosted on Netlify or Firebase

@@ -9,8 +9,9 @@ const Jobs = ({ job, setShowModal, setSelectedJob}) => {
         <div>
 
             <section className="p-4 lg:p-8 text-gray-800">
+
                 <div className="container mx-auto space-y-12">
-                    <div className="flex flex-col h-80 overflow-hidden rounded-md shadow-sm lg:flex-row">
+                    <div className="flex flex-col h-full lg:h-80 overflow-hidden rounded-md shadow-sm lg:flex-row">
                         <img src={job.bannerImage} alt="" className="h-full object-cover bg-gray-500 aspect-video" />
                         <div className="flex flex-col justify-center gap-6 w-full p-4 bg-white">
                             <div>
@@ -23,9 +24,6 @@ const Jobs = ({ job, setShowModal, setSelectedJob}) => {
                             </div>
 
                             <button onClick={()=> {setSelectedJob(job); setShowModal(true)}} type="button" className="self-start border border-secondary px-6 py-2 rounded-md text-secondary font-medium">Details</button>
-
-                            
-
                         </div>
                     </div>
                 </div>

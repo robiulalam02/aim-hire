@@ -3,13 +3,13 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <div className='max-w-screen-xl mx-auto h-[580px] flex md:flex-row flex-col items-center mt-24'>
-            <div className='flex flex-col-reverse md:flex-row justify-between items-center'>
-                <div className='w-6/12 flex flex-col gap-5'>
-                    <h1 className='text-6xl lato-font font-semibold leading-18'>FIND YOUR PERFECT DREAM <span className="bg-secondary text-white px-3 rounded-2xl">JOB</span> WITH AIMHIRE</h1>
+        <div className='max-w-screen-xl mx-auto h-auto md:h-[580px] flex md:flex-row flex-col items-center mt-24'>
+            <div className='flex flex-col-reverse md:flex-row justify-between items-center py-5'>
+                <div className='md:w-6/12 w-full flex flex-col gap-5 text-center md:text-start p-4 md:p-0'>
+                    <h1 className='md:text-6xl text-4xl lato-font font-semibold leading-10 md:leading-18'>FIND YOUR PERFECT DREAM <span className="bg-secondary text-white px-3 rounded-2xl">JOB</span> WITH AIMHIRE</h1>
                     <p>Discover Local and Remote Jobs Tailored to Your Aspirations. Your Gateway to Diverse Career Opportunities Across the Nation.</p>
                 </div>
-                <div className='w-6/12 flex justify-center'>
+                <div className='md:w-6/12 w-full flex justify-center'>
                     <motion.img
                         className="w-[520px] z-0"
                         src="/src/assets/job-search-2.png"

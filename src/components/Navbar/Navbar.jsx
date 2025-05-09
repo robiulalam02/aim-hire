@@ -16,10 +16,20 @@ const Navbar = () => {
         }
         <NavLink to="/blogs">Blogs</NavLink>
         <NavLink to="/contact-us">Contact us</NavLink>
+        {
+            profile ?
+                <div>
+                    <button onClick={signOutUser} className='text-secondary border font-medium border-secondary gap-1 flex md:hidden items-center px-4 py-2 rounded-md'>Logout <IoLogOutOutline size={20} /></button>
+                </div> :
+                <div className='flex gap-5'>
+                    <button onClick={() => navigate('/auth/login')} className='text-secondary border font-medium border-secondary px-4 py-2 rounded-md'>Login</button>
+                    <button onClick={() => navigate('/auth/register')} className='bg-secondary text-white px-4 py-2 rounded-md'>Register</button>
+                </div>
+        }
     </>
     return (
-        <nav className=" backdrop-blur-3xl h-24 fixed w-full top-0 z-50">
-            <div className=' navbar px-0 md:px-10 py-6'>
+        <nav className="backdrop-blur-3xl h-24 fixed w-full top-0 z-50">
+            <div className='navbar pr-5 md:px-10 py-6'>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -53,9 +63,9 @@ const Navbar = () => {
                                         </button>
                                 }
 
-                                <button onClick={signOutUser} className='text-secondary border font-medium border-secondary gap-1 flex items-center px-4 py-2 rounded-md'>Logout <IoLogOutOutline size={20} /></button>
+                                <button onClick={signOutUser} className='text-secondary border font-medium border-secondary gap-1 hidden md:flex items-center px-4 py-2 rounded-md'>Logout <IoLogOutOutline size={20} /></button>
                             </div> :
-                            <div className='flex gap-5'>
+                            <div className='hidden md:flex gap-5'>
                                 <button onClick={() => navigate('/auth/login')} className='text-secondary border font-medium border-secondary px-4 py-2 rounded-md'>Login</button>
                                 <button onClick={() => navigate('/auth/register')} className='bg-secondary text-white px-4 py-2 rounded-md'>Register</button>
                             </div>

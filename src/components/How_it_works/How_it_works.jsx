@@ -2,9 +2,9 @@ import React from 'react';
 
 const How_it_works = () => {
     return (
-        <div className='max-w-screen-xl mx-auto h-96 mt-20'>
+        <div className='max-w-screen-xl mx-auto h-auto p-4 md:p-0 md:h-96 mt-20'>
             <h2 className='text-center text-3xl font-semibold'>How It <span className='text-secondary'>Works?</span></h2>
-            <div className='flex items-center gap-6 justify-between mt-12'>
+            <div className='flex flex-col md:flex-row items-center gap-6 justify-between mt-12'>
 
                 <div className='flex flex-col gap-2 shadow-sm w-full p-4 rounded-md relative'>
                     <div className='flex justify-center'>

@@ -1,27 +1,33 @@
-import React, { use } from 'react';
+import React, { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar/Navbar';
-import { Outlet } from 'react-router';
+import { Outlet, useLocation } from 'react-router';
 import Footer from '../components/Footer/Footer';
-import { ProviderContext } from '../providers/ProviderContext';
 import Loading from '../components/Loading/Loading';
 
 const MainLayout = () => {
-    const {loading} = use(ProviderContext);
+    const location = useLocation();
+    const [loading, setLoading] = useState(false);
 
-    if (loading) {
-        return <Loading />
-    }
+    useEffect(() => {
+        setLoading(true);
+        const timeout = setTimeout(() => setLoading(false), 500); // simulate loading
+        return () => clearTimeout(timeout);
+    }, [location]);
 
     return (
         <div>
+            {loading && <Loading />}
+
             <header>
                 <Navbar />
             </header>
+
             <main>
-                <Outlet></Outlet>
+                <Outlet />
             </main>
+
             <footer>
-                <Footer></Footer>
+                <Footer />
             </footer>
         </div>
     );

@@ -42,25 +42,25 @@ const Details = ({ company }) => {
                 </div>
             }
 
-            <div className='flex items-center justify-between bg-primary p-6 rounded-2xl mb-20'>
-                <div className='flex gap-10 items-center'>
+            <div className='flex flex-col lg:flex-row items-center justify-between bg-primary p-6 rounded-2xl mb-20 gap-4 lg:gap-0'>
+                <div className='flex flex-col md:flex-row gap-10 items-center w-full'>
 
-                    <div className='w-70 overflow-hidden bg-white h-28 p-4 rounded-2xl flex justify-center items-center shadow-sm'>
+                    <div className='w-full overflow-hidden bg-white h-28 p-4 rounded-2xl flex justify-center items-center shadow-sm'>
                         <img className='' src={company.logo} alt="" />
                     </div>
 
-                    <div>
+                    <div className='w-full'>
                         <h2 className='text-2xl font-semibold'>{company.name}</h2>
                         <p><span className='font-medium text-secondary'>location:</span> {company.location}</p>
                     </div>
 
                 </div>
 
-                <div>
+                <div className='w-full flex flex-col md:flex-row justify-center'>
                     <h2 className='text-xl font-semibold'>Website: <br /> <Link target='_blank' to={company.website} className='text-lg font-normal underline'>{company.website}</Link></h2>
                 </div>
 
-                <div>
+                <div className='w-full flex flex-col md:flex-row justify-center'>
                     <h2 className='text-xl font-semibold'>Company Type: <br /> <span className='text-lg font-normal'>{company.industry}</span></h2>
                 </div>
             </div>

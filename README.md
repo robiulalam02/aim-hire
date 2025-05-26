@@ -31,6 +31,7 @@ The purpose of **AimHire** is to provide job seekers with a focused, modern, and
 - 🚫 404 Not Found page
 - 🎨 Modern UI with Tailwind, DaisyUI & Mamba UI
 - 🎞️ Smooth animations using Framer Motion
+- 🌓 Dark/Light mode Toggle
 
 ---
 

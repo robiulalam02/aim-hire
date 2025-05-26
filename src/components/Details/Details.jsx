@@ -14,8 +14,8 @@ const Details = ({ company }) => {
             </Helmet>
             {showModal && selectedJob &&
                 <div className="fixed inset-0 backdrop-blur-xs flex justify-center items-center z-50">
-                    <div className="bg-white p-6 rounded-lg w-full max-w-xl">
-                        <div className='flex justify-between gap-8'>
+                    <div className="bg-white dark: p-6 rounded-lg w-full max-w-xl dark:text-black">
+                        <div className='flex justify-between gap-8 dark:text-black'>
                             <h2 className="text-xl font-bold mb-2">{selectedJob.title} <small className='font-normal'>{selectedJob.jobType}</small></h2>
                             <div className='w-28 overflow-hidden'>
                                 <img className='w-full object-cover' src={company.logo} alt="" />
@@ -45,7 +45,7 @@ const Details = ({ company }) => {
                 </div>
             }
 
-            <div className='flex flex-col lg:flex-row items-center justify-between bg-primary p-6 rounded-2xl mb-20 gap-4 lg:gap-0'>
+            <div className='flex flex-col lg:flex-row items-center justify-between bg-primary p-6 rounded-2xl mb-20 gap-4 lg:gap-0 dark:bg-transparent'>
                 <div className='flex flex-col md:flex-row gap-10 items-center w-full'>
 
                     <div className='w-full overflow-hidden bg-white h-28 p-4 rounded-2xl flex justify-center items-center shadow-sm'>
@@ -70,7 +70,7 @@ const Details = ({ company }) => {
 
             <div>
                 <h1 className='text-2xl text-center my-6 font-semibold'>Available <span className='text-secondary'>Jobs</span></h1>
-                <div className='bg-primary rounded-2xl'>
+                <div className='bg-primary dark:bg-transparent dark:border-slate-100 dark:border rounded-2xl dark:shadow-slate-100 dark:shadow-sm'>
                     {
                         company.jobs.map(job => <Jobs setSelectedJob={setSelectedJob} setShowModal={setShowModal} job={job}></Jobs>)
                     }

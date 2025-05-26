@@ -51,7 +51,7 @@ const Register = () => {
             <Helmet>
                 <title>Register</title>
             </Helmet>
-            <div class="relative flex flex-col rounded-xl shadow-sm p-5">
+            <div class="relative flex flex-col rounded-xl shadow-sm p-5 dark:bg-primary">
                 <h4 class="block text-xl font-medium text-slate-800">
                     Register user
                 </h4>

@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import "tailwindcss";
-@plugin "daisyui" {
-    themes: light --default
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
+@plugin "daisyui" {
+    themes: light --default, dark --prefersdark;
 }
+
 @plugin "daisyui/theme" {
     name: "light";
     default: true;
@@ -12,16 +14,23 @@
     --color-primary-content: #11009e;
     --color-secondary: #3257ff;
 }
+@plugin "daisyui/theme" {
+    name: "dark";
+    default: true;
+    --color-primary: #eef6ff;
+    --color-primary-content: #11009e;
+    --color-secondary: #3257ff;
+}
 
-*{
+* {
     font-family: "Montserrat", sans-serif;
     scroll-behavior: smooth;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
-a.active{
+a.active {
     color: #3257ff;
 }

@@ -30,11 +30,11 @@ const Testimonial = () => {
                 }}
             >
                 <SwiperSlide>
-                    <div className="flex flex-col items-center w-full p-6 justify-between lg:h-full lg:p-8 bg-primary text-gray-800">
+                    <div className="flex flex-col items-center w-full p-6 justify-between lg:h-full lg:p-8 bg-primary dark:bg-transparent text-gray-800 dark:border dark:border-slate-50 dark:shadow dark:shadow-slate-200">
                         <div className='w-16 h-16 bg-gray-500 rounded-full overflow-hidden'>
                             <img src={testimonial1} alt="" className="w-full h-full object-cover" />
                         </div>
-                        <p className="relative py-1 text-lg italic text-center text-gray-800">
+                        <p className="relative py-1 text-lg italic text-center text-gray-800 dark:text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-secondary">
                                 <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
                                 <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
@@ -44,18 +44,18 @@ const Testimonial = () => {
                                 <path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
                             </svg>
                         </p>
-                        <div className="text-center text-gray-600">
+                        <div className="text-center text-gray-600 dark:text-gray-50">
                             <p>Ayesha Rahman</p>
                             <p>Junior Web Developer</p>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="flex flex-col items-center w-full p-6 justify-between lg:h-full lg:p-8 bg-primary text-gray-800">
+                    <div className="flex flex-col items-center w-full p-6 justify-between lg:h-full lg:p-8 bg-primary dark:bg-transparent text-gray-800 dark:border dark:border-slate-50 dark:shadow dark:shadow-slate-200">
                         <div className='w-16 h-16 bg-gray-500 rounded-full overflow-hidden'>
                             <img src={testimonial2} alt="" className="w-full h-full object-cover" />
                         </div>
-                        <p className="relative py-1 text-lg italic text-center text-gray-800">
+                        <p className="relative py-1 text-lg italic text-center text-gray-800 dark:text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-secondary">
                                 <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
                                 <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
@@ -65,18 +65,18 @@ const Testimonial = () => {
                                 <path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
                             </svg>
                         </p>
-                        <div className="text-center text-gray-600">
+                        <div className="text-center text-gray-600 dark:text-gray-50">
                             <p>Saif Uddin</p>
                             <p>Creative Tech Ltd.</p>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="flex flex-col items-center w-full p-6 justify-between lg:h-full lg:p-8 bg-primary text-gray-800">
+                    <div className="flex flex-col items-center w-full p-6 justify-between lg:h-full lg:p-8 bg-primary dark:bg-transparent text-gray-800 dark:border dark:border-slate-50 dark:shadow dark:shadow-slate-200">
                         <div className='w-16 h-16 bg-gray-500 rounded-full overflow-hidden'>
                             <img src={testimonial3} alt="" className="w-full h-full object-cover" />
                         </div>
-                        <p className="relative py-1 text-lg italic text-center text-gray-800">
+                        <p className="relative py-1 text-lg italic text-center text-gray-800 dark:text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-secondary">
                                 <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
                                 <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
@@ -86,18 +86,18 @@ const Testimonial = () => {
                                 <path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
                             </svg>
                         </p>
-                        <div className="text-center text-gray-600">
+                        <div className="text-center text-gray-600 dark:text-gray-50">
                             <p>Mehedi Hasan</p>
                             <p>Front end developer (Intern)</p>
                         </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="flex flex-col items-center w-full p-6 justify-between lg:h-full lg:p-8 bg-primary text-gray-800">
+                    <div className="flex flex-col items-center w-full p-6 justify-between lg:h-full lg:p-8 bg-primary dark:bg-transparent text-gray-800 dark:border dark:border-slate-50 dark:shadow dark:shadow-slate-200">
                         <div className='w-16 h-16 bg-gray-500 rounded-full overflow-hidden'>
                             <img src={testimonial4} alt="" className="w-full h-full object-cover" />
                         </div>
-                        <p className="relative py-1 text-lg italic text-center text-gray-800">
+                        <p className="relative py-1 text-lg italic text-center text-gray-800 dark:text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-secondary">
                                 <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
                                 <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
@@ -107,7 +107,7 @@ const Testimonial = () => {
                                 <path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
                             </svg>
                         </p>
-                        <div className="text-center text-gray-600">
+                        <div className="text-center text-gray-600 dark:text-gray-50">
                             <p>Iftekhar Ahmed</p>
                             <p>HR Executive</p>
                         </div>

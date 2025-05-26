@@ -11,7 +11,7 @@ const Blogs = () => {
                 <title>Blogs</title>
             </Helmet>
             <div class="container px-5 py-24 mx-auto">
-                <div class="-my-8 divide-y-2 divide-gray-100">
+                <div class="-my-8 divide-y-2 divide-gray-100 dark:text-white">
 
                     {
                         data.map((posts, index) => <Post key={index} posts={posts}></Post>)

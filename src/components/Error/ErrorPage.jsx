@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar';
 import { NavLink } from 'react-router';
 import { PiHouseLineBold } from 'react-icons/pi';
 import { Helmet } from 'react-helmet-async';
+import errorImg from '../../assets/404_error.svg'
 
 const ErrorPage = () => {
     return (
@@ -20,7 +21,7 @@ const ErrorPage = () => {
 
                     </NavLink>
                 </div>
-                <img className='h-[400px]' src="/src/assets/404_error.svg" alt="" />
+                <img className='h-[400px]' src={errorImg} alt="" />
             </main>
         </div>
     );

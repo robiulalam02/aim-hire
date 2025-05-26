@@ -1,6 +1,6 @@
 # 🎯 AimHire — Smart Job Search Platform
 
-### 🌐 Live Site: [Your Live URL Here]  
+### 🌐 Live Site: [Your Live URL Here](https://aim-hire-auth.web.app/) 
 📂 GitHub Repo: [Your GitHub Repo Link Here]
 
 ---
